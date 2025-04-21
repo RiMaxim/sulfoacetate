@@ -1,4 +1,4 @@
-# create_table.sh
+# create_table.sh (Timing < 1.5 h)
 
 
 
