@@ -6,8 +6,8 @@ Timing: 1h 20 mins
 
 – Extracting representive genomes from bac120_metadata_r226.tsv (GTDB).
 
-- Extracting sponge -related information from biosample_set.xml (NCBI).
+–  Extracting sponge -related information from biosample_set.xml (NCBI).
 
-- Combining data tables.
+– Combining data tables.
 
-- Add sponge species.
+– Add sponge species.
