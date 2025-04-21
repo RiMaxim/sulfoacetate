@@ -8,7 +8,7 @@ echo "=== Pipeline started at: $(date) ==="
 echo -e "\n[1/5] Download and decompress..."
 TS=$(date +%s)
 
-#Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 2025-04-19 10:07, 3.2 GB).
+#Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 3.2 GB).
 wget https://data.ace.uq.edu.au/public/gtdb/data/releases/release226/226.0/bac120_r226.tree.gz
 wget https://data.ace.uq.edu.au/public/gtdb/data/releases/release226/226.0/bac120_metadata_r226.tsv.gz
 wget https://ftp.ncbi.nih.gov/biosample/biosample_set.xml.gz
@@ -68,10 +68,10 @@ cat tmp5 | awk -F'\t' '{print $2"\t"$3"\t"$1"\t"$4}' > tmp6
 cat tmp6 tmp4 > table.tsv
 
 # Final table structure:
-# column 1 - GTDB accession
-# column 2 - GTDB taxonomy
-# column 3 - Sponge species (derived from column 4)
-# column 4 - Data from biosample_set.xml
+# 1st column - GTDB accession
+# 2nd column - GTDB taxonomy
+# 3rd column - Sponge species (derived from column 4)
+# 4th column - Data from biosample_set.xml
 
 TE=$(date +%s)
 echo "Step completed in $((TE - TS)) seconds"
