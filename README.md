@@ -1,4 +1,4 @@
-#Timing: 1h 20 mins
+# Timing: 1h 20 mins
 
 ./create_table.sh 
 
