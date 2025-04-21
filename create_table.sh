@@ -60,8 +60,8 @@ echo "Step completed in $((TE - TS)) seconds"
 echo -e "\n[5/5] Add sponge species and creating final table..."
 TS=$(date +%s)
 
-# Add sponge species
-./add_sponge.sh tmp3 > tmp5
+# Add sponge species. sponge.list - list of sponge from https://marinespecies.org/porifera/
+./add_sponge.sh sponge.list tmp3 tmp5
 
 # Prepare final table
 cat tmp5 | awk -F'\t' '{print $2"\t"$3"\t"$1"\t"$4}' > tmp6
