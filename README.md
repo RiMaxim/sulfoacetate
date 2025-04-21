@@ -11,3 +11,5 @@ Timing: 1h 20 mins
 – Combining data tables.
 
 – Add sponge species.
+
+Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml)
