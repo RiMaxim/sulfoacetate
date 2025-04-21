@@ -6,35 +6,26 @@ if [ $# -lt 3 ]; then
     exit 1
 fi
 
-sponge_names_file="$1"
-input_file="$2"
-output_file="$3"
+sponge_names_file="$1"  # File containing sponge names (one per line)
+input_file="$2"         # File to process line by line
+output_file="$3"        # File to write results
 
-# Clear the output file
+# Clear the output file if it exists
 > "$output_file"
+
+# Generate regex pattern from sponge names (e.g., "Demosponge|Hexactinellid|...")
+sponge_pattern=$(tr '\n' '|' < "$sponge_names_file" | sed 's/|$//')
 
 # Process each line of the input file
 while read -r line; do
-    # Initialize variables
-    found=""
-    
-    # Check against each sponge name individually
-    while read -r sponge_name; do
-        # Skip empty lines in sponge names file
-        [ -z "$sponge_name" ] && continue
-        
-        # Check for match (case insensitive)
-        if echo "$line" | grep -q -i -w "$sponge_name"; then
-            found="$sponge_name"
-            break  # Stop after first match
-        fi
-    done < "$sponge_names_file"
+    # Extract the first matching sponge name (case-insensitive)
+    found=$(echo "$line" | grep -o -E -i "$sponge_pattern" | head -n 1)
 
-    # Format the output
+    # If no match, write "ND"; otherwise, capitalize the first letter only
     if [ -z "$found" ]; then
         printf "ND\t%s\n" "$line" >> "$output_file"
     else
-        # Capitalize first letter only
+        # Capitalize first letter, lowercase the rest (e.g., "hexactinellid" → "Hexactinellid")
         capitalized_found=$(echo "$found" | awk '{print toupper(substr($0,1,1)) tolower(substr($0,2))}')
         printf "%s\t%s\n" "$capitalized_found" "$line" >> "$output_file"
     fi

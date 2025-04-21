@@ -1278,7 +1278,6 @@ Cacospongia symbiotica
 Cacospongia tuberculata
 Cacospongia vesiculifera
 Calcifibrospongia actinostromarioides
-Callyspongia
 Callyspongia abnormis
 Callyspongia acapulcaensis
 Callyspongia aculeata
@@ -1470,6 +1469,7 @@ Callyspongia vincentina
 Callyspongia violacea
 Callyspongia viridis
 Callyspongia waguensis
+Callyspongia
 Calthropella durissima
 Calthropella enigmatica
 Calthropella geodioides
@@ -5745,7 +5745,6 @@ Hymenancora tenuisclera
 Hymenancora tenuissima
 Hymenancora triungulata
 Hymenancora umbellifera
-Hymeniacidon
 Hymeniacidon actites
 Hymeniacidon adreissiformis
 Hymeniacidon agminata
@@ -5807,6 +5806,7 @@ Hymeniacidon ungodon
 Hymeniacidon upaonassu
 Hymeniacidon variospiculata
 Hymeniacidon zosterae
+Hymeniacidon
 Hymeraphia breeni
 Hymeraphia elongata
 Hymeraphia pacifica
@@ -5887,7 +5887,6 @@ Inflatella pellicula
 Inflatella tubulosa
 Inflatella viridis
 Inodes erecta
-Iophon
 Iophon abnormalis
 Iophon aceratum
 Iophon bipocillum
@@ -5932,6 +5931,7 @@ Iophon timidum
 Iophon tubiforme
 Iophon unicorne
 Iophon variopocillatum
+Iophon
 Iotroata abyssi
 Iotroata acanthostylifera
 Iotroata affinis
@@ -6097,6 +6097,7 @@ Ircinia variabilis
 Ircinia verrucosa
 Ircinia vestibulata
 Ircinia wistarii
+Ircinia
 Isabella harborbranchi
 Isabella mirabilis
 Isabella tanoa
@@ -7110,9 +7111,9 @@ Melonanchora insulsa
 Melonanchora intermedia
 Melonanchora maeli
 Melonanchora tumultuosa
-Melophlus
-Melophlus sarasinorum
 Melophlus sp.
+Melophlus sarasinorum
+Melophlus
 Merlia deficiens
 Merlia lipoclavidisca
 Merlia morlandi
@@ -8054,7 +8055,6 @@ Petromica plumosa
 Petromica tubulata
 Petrosaspongia nigra
 Petrosaspongia pharmamari
-Petrosia
 Petrosia alfiani
 Petrosia armata
 Petrosia australis
@@ -8114,6 +8114,7 @@ Petrosia vansoesti
 Petrosia volcano
 Petrosia vulcaniensis
 Petrosia weinbergi
+Petrosia
 Petrostroma schulzei
 Phakellia atypica
 Phakellia bettinae
@@ -8467,7 +8468,6 @@ Plakina trilopha
 Plakina versatilis
 Plakina weinbergi
 Plakoosa elisa
-Plakortis
 Plakortis albicans
 Plakortis angulospiculatus
 Plakortis badabaluensis
@@ -8500,6 +8500,7 @@ Plakortis simplex
 Plakortis spinalis
 Plakortis symbiotica
 Plakortis zyggompha
+Plakortis
 Platella polybasalia
 Platylistrum platessa
 Platylistrum subviridum
@@ -8857,7 +8858,6 @@ Psammoclema tuberculatum
 Psammoclema vansoesti
 Psammoclema vosmaeri
 Pseudobasta hermanni
-Pseudoceratina
 Pseudoceratina arabica
 Pseudoceratina clavata
 Pseudoceratina crassa
@@ -8868,6 +8868,7 @@ Pseudoceratina sp.
 Pseudoceratina typica
 Pseudoceratina typicus
 Pseudoceratina verrucosa
+Pseudoceratina
 Pseudocorticium jarrei
 Pseudohalichondria clavatancora
 Pseudohalichondria clavilobata
@@ -9248,7 +9249,6 @@ Sclerothamnus clausii
 Scolopes lignea
 Scolopes megastra
 Scolopes moseleyi
-Scopalina
 Scopalina agoga
 Scopalina australiensis
 Scopalina azurea
@@ -9269,6 +9269,8 @@ Scopalina lophyropoda
 Scopalina nausicae
 Scopalina rubra
 Scopalina ruetzleri
+Scopalina sp.
+Scopalina
 Scypha acanthoxea
 Scypha ananus
 Scypha arctica
