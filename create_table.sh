@@ -34,12 +34,16 @@ echo -e "\n[3/5] Parssing BioSample xml data..."
 TS=$(date +%s)
 
 # Parse BIOSAMPLE XML data
-python3 ./parser_biosample_xml.py
+python3 ./parser_biosample_xml.py biosample_set.xml biosample_sponge_matches.tsv biosample_log.tsv
+cat biosample_sponge_matches.tsv |awk -F'\t' '{if($1 == "N/A") print $2}' |awk -F' ' '{print $1"\t"$0}' >biosample_sponge_matches.tsv2
+cat biosample_sponge_matches.tsv |awk -F'\t' '{if($1 != "N/A") print $0}' >biosample_sponge_matches.tsv3
+cat biosample_sponge_matches.tsv2 biosample_sponge_matches.tsv3 > biosample_sponge_matches.tsv
+rm biosample_sponge_matches.tsv2 biosample_sponge_matches.tsv3
 
 # Extract sponge-related information
 # Output files:
 # biosample_sponge_matches.tsv - BioSample ID (col1) and sponge-associated info (col2)
-# biosample_log.tsv - BioSample IDs (col1)
+# biosample_log.tsv - log file
 
 TE=$(date +%s)
 echo "Step completed in $((TE - TS)) seconds"
@@ -61,22 +65,10 @@ echo -e "\n[5/5] Add sponge species and creating final table..."
 TS=$(date +%s)
 
 # Add sponge species. sponge.list - list of sponge from https://marinespecies.org/porifera/
-head -n 4000 sponge.list >sponge.list2
-tail -n +4001 sponge.list >tmp.list
-head -n 4000 tmp.list >sponge.list3
-tail -n +4001 tmp.list >sponge.list4
-
-./add_sponge.sh sponge.list2 tmp3 tmp5
-cat tmp5 |awk -F'\t' '{if($1 != "ND") print $2"\t"$3"\t"$1"\t"$4}' >tmp6
-cat tmp5 |awk -F'\t' '{if($1 == "ND") print $2"\t"$3"\t"$4}' >tmp7
-
-./add_sponge.sh sponge.list3 tmp7 tmp8
-cat tmp8 |awk -F'\t' '{if($1 != "ND") print $2"\t"$3"\t"$1"\t"$4}' >tmp9
-cat tmp8 |awk -F'\t' '{if($1 == "ND") print $2"\t"$3"\t"$4}' >tmp10
-
-./add_sponge.sh sponge.list4 tmp10 tmp11
-cat tmp11 |awk -F'\t' '{print $2"\t"$3"\t"$1"\t"$4}' >tmp12
-cat tmp12 tmp6 tmp9 tmp4 >table.tsv
+./add_sponge.sh sponge.list tmp3 tmp5
+cat tmp5 |awk -F'\t' '{print $2"\t"$3"\t"$1"\t"$4}' >tmp6
+cat tmp6 tmp4 >table.tsv
+sed -i 's/\bsp\b/sp./g' table.tsv
 
 # Final table structure:
 # 1st column - GTDB accession
@@ -88,5 +80,5 @@ TE=$(date +%s)
 echo "Step completed in $((TE - TS)) seconds"
 ########################################################################
 # Clean up temporary files
-rm tmp* sponge.list2 sponge.list3 sponge.list4
+rm tmp*
 
