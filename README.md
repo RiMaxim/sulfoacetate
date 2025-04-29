@@ -26,4 +26,6 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – As stated above, if information is present in the fourth column but no species name is identified, the sample is assigned the label Porifera sp.. Manual inspection allowed us to identify 85 specific sponge names. The remaining 89 samples remain labeled as Porifera sp.
 
+– The identified names were checked for correctness, and any trailing spaces were removed. A comparison between the two tables allows for the detection of all manual corrections.
+
 The input file is table.tsv, generated in the previous step. The resulting output is saved to table2.tsv.
