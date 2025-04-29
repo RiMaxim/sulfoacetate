@@ -13,3 +13,6 @@
 – Add sponge species.
 
 Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml)
+
+
+# Host information was manually curated using the information from BioProject descriptions and original publications.
