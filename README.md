@@ -20,4 +20,5 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 
 - The input file is table.tsv, generated in the previous step.
+  
 - The resulting output is saved to table2.tsv.
