@@ -16,3 +16,8 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 
 # Host information was manually curated using the information from BioProject descriptions and original publications.
+
+
+
+- The input file is table.tsv, generated in the previous step.
+- The resulting output is saved to table2.tsv.
