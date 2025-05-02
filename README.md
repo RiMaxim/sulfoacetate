@@ -77,6 +77,52 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Xestospongia muta	          |24	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
 |Xestospongia sp.	            |2	          |HMA |Based on no fewer than three species from this genus.|
 |Xestospongia testudinaria	  |1	          |HMA |doi: 10.1093/femsec/fiz169                           |
+|Acanthella acuta             |1	          |LMA |doi: 10.1086/BBLv227n1p78                            |
+|Amphimedon queenslandica 	  |3	          |LMA |doi: 10.1128/mBio.01577-21                           |
+|Aphrocallistes beatrix       |1	          |LMA |doi: 10.1093/ismejo/wrae197                          |
+|Axinella damicornis          |7	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Axinella dissimilis          |1	          |LMA |Based on species from the same genus.                |
+|Axinella polypoides	        |2	          |LMA |doi: 10.1086/BBLv227n1p78                            |
+|Axinella sp.                 |1	          |LMA |Based on no fewer than three species from this genus.|
+|Axinella verrucosa           |1	          |LMA |doi: /10.12688/openreseurope.19755.1                 |
+|Callyspongia serpentina      |2          	|LMA |Based on species from the same genus.                |
+|Callyspongia sp.             |5          	|LMA |doi: 10.1093/femsec/fiv115                           |
+|Carteriospongia foliascens   |1	          |LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Clathria eurypa              |1	          |LMA |Based on species from the same genus.                |
+|Cliona orientalis            |5	          |LMA |doi: 10.1098/rspb.2019.2153                          |
+|Coelocarteria singaporensis  |11	          |LMA |doi: 10.1128/mBio.01577-21                           |
+|Crambe crambe                |1	          |LMA |doi: 10.1128/mBio.01577-21                           |
+|Crella incrustans	          |1	          |LMA |doi: 10.1128/mBio.01577-21                           |
+|Cymbastela concentrica	      |1	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Dysidea tupha                |1	          |LMA |Based on species from the same genus.                |
+|Halichondria bowerbanki      |1	          |LMA |Based on species from the same genus.                |
+|Halichondria okadai          |1	          |LMA |Based on species from the same genus.                |
+|Halichondria panicea         |19	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Halichondria sp.             |1	          |LMA |Based on no fewer than three species from this genus.|
+|Haliclona cymaeformis        |1	          |LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Haliclona oculata            |25         	|LMA |Based on species from the same genus.                |
+|Haliclona sp.                |3	          |LMA |Based on no fewer than three species from this genus.|
+|Haliclona xena               |3	          |LMA |doi: 10.1111/1574-6941.12400                         |
+|Halisarca caerulea           |1	          |LMA |doi: 10.1002/lno.11384                               |
+|Hymeniacidon sinapium        |3          	|LMA |doi: 10.1093/femsec/fiv115                           |
+|Hymeniacidon sp.             |3          	|LMA |Based on no fewer than three species from this genus.|
+|Ianthella basta              |8	          |LMA |doi: 10.3389/fmicb.2017.00752                        |
+|Lamellodysidea herbacea      |16	          |LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Mycale adhaerens             |1	          |LMA |Based on species from the same genus.                |
+|Mycale hentscheli            |27	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Mycale phyllophila           |4	          |LMA |Based on species from the same genus.                |
+|Mycale sp.                   |1	          |LMA |Based on no fewer than three species from this genus.|
+|Ophlitaspongia papilla       |2	          |LMA |doi: 10.1371/journal.pone.0080653                    |
+|Oscarella lobularis          |16          	|LMA |doi: 10.1086/BBLv227n1p78                            |
+|Pione vastifica              |1	          |LMA |doi: 10.1016/j.sjbs.2019.05.002                      |
+|Phakellia elegans            |1	          |LMA |Based on species from the same genus.                |
+|Phyllospongia foliascens     |40         	|LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Polymastia sp.               |2	          |LMA |doi: 10.1111/j.1574-6941.2012.01467.x                |
+|Stylissa flabelliformis      |11         	|LMA |doi: 10.1016/j.scitotenv.2024.17017                  |
+|Tedania ignis                |1	          |LMA |doi: 10.1086/BBLv227n1p78                            |
+|Tethya californiana          |2         	  |LMA |Based on species from the same genus.                |
+|Tethya sp.                   |1         	  |LMA |doi: 10.1080/14772000.2024.2383341                   |
+|Vazella pourtalesii          |67	          |LMA |doi: 10.1038/s41598-020-74670-0                      |
 |Aiolochroia sp.              |12	          |ND  |                                                     |
 |Anoxycalyx joubini	          |1	          |ND  |                                                     |
 |Antho dichotoma	            |3	          |ND  |                                                     |
