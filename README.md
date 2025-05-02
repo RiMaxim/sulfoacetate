@@ -1,7 +1,5 @@
 # create_table.sh (Timing < 1.5 h)
 
-
-
 – Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 3.2 Gb).
 
 – Extracting representive genomes from bac120_metadata_r226.tsv (GTDB).
@@ -16,8 +14,6 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 # Host information was manually curated using the information from BioProject descriptions and original publications (Timing variable)
 
-
-
 – An additional genome, RS_GCF_001078595.1 (SAMN03777540), was included because, although the XML block for this ID does not mention ‘Sponge’, ‘sponge’, ‘porifera’, or ‘Porifera’, the host organism is a sponge—Oscarella lobularis.
 
 – Remove the three samples, as they are not marine sponges: RS_GCF_023370115.1 (SAMN28097950), RS_GCF_026420865.1 (SAMN31422749), RS_GCF_040538665.1 (SAMN38848338)”
@@ -28,12 +24,17 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – The identified names were checked for correctness, and any trailing spaces were removed. A comparison between the two tables allows for the detection of all manual corrections.
 
-The input file is table.tsv, generated in the previous step. The resulting output is saved to table2.tsv.
+
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
 
-| Name     | Role         | Description              |
-|----------|--------------|--------------------------|
-| Alice    | Developer    | Backend specialist       |
-| Bob      | Designer     | UX/UI and prototyping    |
-| Charlie  | Project Lead | Coordinates team efforts |
+A total of 1,626 genomes were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,074 genomes (from 41 sponge species) were classified as HMA (High Microbial Abundance), 308 genomes (from 46 sponge species) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
+
+
+|Sponge Name       |Genomes count|Type| Reference                 |
+|------------------|-------------|----|---------------------------|
+|Agelas oroides    |50	         |HMA |doi: 10.1093/femsec/fiv115 |
+|Agelas tubulata   |1            |HMA |doi: 10.1128/mBio.01577-21 |
+|Aplysina aerophoba|67	         |HMA |doi: 10.1086/BBLv227n1p78  |
+
+The input file is table.tsv, generated in the previous step. The resulting output is saved to table2.tsv.
