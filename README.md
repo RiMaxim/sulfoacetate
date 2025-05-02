@@ -34,16 +34,28 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – A total of 1,626 genomes were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,074 genomes (from 41 sponge species) were classified as HMA (High Microbial Abundance), 308 genomes (from 46 sponge species) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
 
-|Sponge Name          |Genomes count|Type| Reference                     |
-|---------------------|-------------|----|-------------------------------|
-|Agelas oroides       |50	          |HMA |doi: 10.1093/femsec/fiv115     |
-|Agelas tubulata      |1            |HMA |doi: 10.1128/mBio.01577-21     |
-|Aplysina aerophoba   |67	          |HMA |doi: 10.1086/BBLv227n1p78      |
-|Aplysina fistularis  |4            |HMA |doi: 10.1086/BBLv227n1p78      |
-|Aplysina fulva	      |1	          |HMA |doi: 10.1007/s00442-007-0910-0 |
-|Chondrilla nucula	  |2	          |HMA |doi: 10.1093/femsec/fiv115     |
-|Chondrosia reniformis|2	          |HMA |doi: 10.1093/femsec/fiv115     |
-|Coscinoderma mathewsi|80	          |HMA |doi: 10.1038/s41598-018-26641-9|
-|Craniella sp.	      |1	          |HMA |doi: 10.3389/fmars.2022.841806 |
+|Sponge Name              |Genomes count|Type| Reference                                           |
+|-------------------------|-------------|----|-----------------------------------------------------|
+|Agelas oroides           |50	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Agelas tubulata          |1            |HMA |doi: 10.1128/mBio.01577-21                           |
+|Aplysina aerophoba       |67	          |HMA |doi: 10.1086/BBLv227n1p78                            |
+|Aplysina fistularis      |4            |HMA |doi: 10.1086/BBLv227n1p78                            |
+|Aplysina fulva	          |1	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
+|Chondrilla nucula	      |2	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Chondrosia reniformis    |2	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Coscinoderma mathewsi    |80	          |HMA |doi: 10.1038/s41598-018-26641-9                      |
+|Craniella sp.	          |1	          |HMA |doi: 10.3389/fmars.2022.841806                       |
+|Cymbastela coralliophila	|1	          |HMA |doi: 10.1038/s41598-018-26641-9                      |
+|Diacarnus erythraeanus	  |1	          |HMA |doi: 10.1002/lno.12361                               |
+|Geodia barretti         	|1	          |HMA |doi: 10.1038/s41598-020-74670-0                      |
+|Geodia parva	            |62           |HMA |Based on species from the same genus.                |
+|Geodia sp.	              |1            |HMA |Based on no fewer than three species from this genus.|
+|Ircinia campana         	|9           	|HMA |doi: 10.3389/fmars.2021.665789                       |
+|Ircinia felix	          |45	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
+|Ircinia ramosa	          |154          |HMA |doi: 10.1128/mBio.01577-21                           |
+|Ircinia reteplana      	|37           |HMA |Based on species from the same genus.                |
+|Ircinia sp.	            |116          |HMA |Based on no fewer than three species from this genus.|
+|Ircinia strobilina	      |12           |HMA |doi: 10.1007/s00442-007-0910-0                       |
+|Ircinia variabilis	      |1	          |HMA |doi: 10.1093/femsec/fiv115                           |
 
 The input file, table.tsv, is generated in the first step. The resulting output, filtered in the previous step and annotated with type information in this step, is saved as table2.tsv ((1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml; 5th column - type HMA/LMA).
