@@ -66,18 +66,18 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Pseudoceratina sp.	          |5	          |HMA |doi: 10.1128/mBio.01577-21                           |
 |Rhabdastrella globostellata	|2	          |HMA |doi: 10.3389/fmicb.2017.00752                        |
 |Rhopaloeides odorabile	      |109	        |HMA |doi: 10.3389/fmicb.2017.00752                        |
-|Sarcotragus spinosulus	      |4	          |HMA |doi: 10.1093/femsec/fiv115
-|Spongia barbara	            |1	          |HMA |Crouch, Barbara C. Survival and Growth of Sponge \nRecruits in a Land-Based Nursery. MS thesis. \nFlorida Atlantic University, 2022.|
-|Spongia officinalis	        |90	          |HMA |doi: 10.1093/femsec/fiv115|
+|Sarcotragus spinosulus	      |4	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Spongia barbara	            |1	          |HMA |Crouch, Barbara C. Survival and Growth of Sponge Recruits in a Land-Based Nursery. MS thesis. Florida Atlantic University, 2022.|
+|Spongia officinalis	        |90	          |HMA |doi: 10.1093/femsec/fiv115                           |
 |Spongia sp.	                |18	          |HMA |Based on no fewer than three species from this genus.|
-|Theonella swinhoei	          |9	          |HMA |doi: 10.1007/s00338-024-02568-8|
-|Thoosa mismalolli	          |3	          |HMA |doi: 10.1038/s41598-025-85622-x|
-|Verongula gigantea	          |1	          |HMA |doi: 10.1086/BBLv227n1p78|
-|Xestospongia bergquistia	    |62	          |HMA |Based on species from the same genus.|
-|Xestospongia muta	          |24	          |HMA |doi: 10.1007/s00442-007-0910-0|
+|Theonella swinhoei	          |9	          |HMA |doi: 10.1007/s00338-024-02568-8                      |
+|Thoosa mismalolli	          |3	          |HMA |doi: 10.1038/s41598-025-85622-x                      |
+|Verongula gigantea	          |1	          |HMA |doi: 10.1086/BBLv227n1p78                            |
+|Xestospongia bergquistia	    |62	          |HMA |Based on species from the same genus.                |
+|Xestospongia muta	          |24	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
 |Xestospongia sp.	            |2	          |HMA |Based on no fewer than three species from this genus.|
-|Xestospongia testudinaria	  |1	          |HMA |doi: 10.1093/femsec/fiz169|
-|Aiolochroia sp.              |	12	        |ND  |                                                     |
+|Xestospongia testudinaria	  |1	          |HMA |doi: 10.1093/femsec/fiz169                           |
+|Aiolochroia sp.              |12	          |ND  |                                                     |
 |Anoxycalyx joubini	          |1	          |ND  |                                                     |
 |Antho dichotoma	            |3	          |ND  |                                                     |
 |Arenosclera brasiliensis	    |2	          |ND  |                                                     |
