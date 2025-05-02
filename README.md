@@ -31,3 +31,9 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 The input file is table.tsv, generated in the previous step. The resulting output is saved to table2.tsv.
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
+
+| Name     | Role         | Description              |
+|----------|--------------|--------------------------|
+| Alice    | Developer    | Backend specialist       |
+| Bob      | Designer     | UX/UI and prototyping    |
+| Charlie  | Project Lead | Coordinates team efforts |
