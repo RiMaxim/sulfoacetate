@@ -57,5 +57,55 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Ircinia sp.	            |116          |HMA |Based on no fewer than three species from this genus.|
 |Ircinia strobilina	      |12           |HMA |doi: 10.1007/s00442-007-0910-0                       |
 |Ircinia variabilis	      |1	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Aiolochroia sp.              |	12	    |ND  |                                                     |
+|Anoxycalyx joubini	          |1	      |ND  |                                                     |
+|Antho dichotoma	            |3	      |ND  |                                                     |
+|Arenosclera brasiliensis	    |2	      |ND  |                                                     |
+|Cacospongia mycofijiensis    |1	      |ND  |                                                     |
+|Chalinula sp.	              |1	      |ND  |                                                     |
+Cinachyrella australiensis    |2      	|ND  |                                                     |
+|Cinachyrella kuekenthali	    |1      	|ND  |                                                     |
+|Cinachyrella sp.	            |1	      |ND  |                                                     |
+|Clathrina clathrus	          |1	      |ND  |                                                     |
+|Corticium candelabrum	      |31	      |ND  |                                                     |
+|Demospongiae sp.	            |4	      |ND  |                                                     |
+|Diacarnus megaspinorhabdosa	|1	      |ND  |                                                     |
+|Discodermia calyx	          |2	      |ND  |                                                     |
+|Ephydatia muelleri	          |5	      |ND  |                                                     |
+|Ephydatia sp.	              |1	      |ND  |                                                     |
+|Eunapius fragilis	          |8	      |ND  |                                                     |
+|Fascaplysinopsis reticulata	|1	      |ND  |                                                     |
+|Forcepia sp.	                |1	      |ND  |                                                     |
+|Haliclonissa verrucosa	      |1       	|ND  |                                                     |
+|Haplosclerida sp.	          |5	      |ND  |                                                     |
+|Hexactinellida sp.	          |2	      |ND  |                                                     |
+|Hyattella lendenfeldi	      |1	      |ND  |                                                     |
+|Hymedesmia methanophila	    |1	      |ND  |                                                     |
+|Iophon methanophila	        |1	      |ND  |                                                     |
+|Iophon sp.                   |2	      |ND  |                                                     |
+|Iotrochota sp	              |1        |ND  |                                                     |
+|Leiodermatium sp.	          |1      	|ND  |                                                     |
+|Lissode|ND|oryx nobilis	    |1      	|ND  |                                                     |
+|Lophophysema sp.	            |2      	|ND  |                                                     |
+|Myxilla sp.	                |1      	|ND  |                                                     |
+|Neamphius huxleyi            |4      	|ND  |                                                     |
+|Pandaros acanthifolium	      |1       	|ND  |                                                     |
+|Pheronema carpenteri	        |2       	|ND  |                                                     |
+|Poecillastra wondoensis      |1      	|ND  |                                                     |
+|Poecilosclerida sp.	        |2      	|ND  |                                                     |
+|Porifera sp.	                |88	      |ND  |                                                     |
+|Pseudaxinella sp.	          |1      	|ND  |                                                     |
+|Sarcotragus foetidus	        |1	      |ND  |                                                     |
+|Spheciospongia confoederata	|1       	|ND  |                                                     |
+|Spheciospongia panis	        |1       	|ND  |                                                     |
+|Spongilla lacustris	        |19     	|ND  |                                                     |
+|Spongilla sp.	              |17     	|ND  |                                                     |
+|Suberites sp.	              |1      	|ND  |                                                     |
+|Sycon capricorn	            |1      	|ND  |                                                     |
+|Sycon ciliatum	              |1      	|ND  |                                                     |
+|Tedania charcoti	            |1      	|ND  |                                                     |
+|Tedania sp.	                |1      	|ND  |                                                     |
+|Tedaniidae sp.	              |2	      |ND  |                                                     |
+|Terpios hoshinota	          |1       	|ND  |                                                     |
 
 The input file, table.tsv, is generated in the first step. The resulting output, filtered in the previous step and annotated with type information in this step, is saved as table2.tsv ((1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml; 5th column - type HMA/LMA).
