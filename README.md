@@ -28,13 +28,22 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
 
-A total of 1,626 genomes were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,074 genomes (from 41 sponge species) were classified as HMA (High Microbial Abundance), 308 genomes (from 46 sponge species) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
+– If at least three studies on species within a genus, or three independent examples, consistently indicated a specific type, that type was assigned to the entire genus. 
 
+– Lissodendoryx nobilis was classified as ND (Not Determined), as it was identified as LMA (Low Microbial Abundance) in two studies (doi: 10.1371/journal.pone.0091092, doi.org/10.1016/j.dsr.2024.104416) and as HMA (High Microbial Abundance) in one study (doi: 10.4014/jmb.1406.06041).
 
-|Sponge Name       |Genomes count|Type| Reference                 |
-|------------------|-------------|----|---------------------------|
-|Agelas oroides    |50	         |HMA |doi: 10.1093/femsec/fiv115 |
-|Agelas tubulata   |1            |HMA |doi: 10.1128/mBio.01577-21 |
-|Aplysina aerophoba|67	         |HMA |doi: 10.1086/BBLv227n1p78  |
+– A total of 1,626 genomes were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,074 genomes (from 41 sponge species) were classified as HMA (High Microbial Abundance), 308 genomes (from 46 sponge species) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
 
-The input file is table.tsv, generated in the previous step. The resulting output is saved to table2.tsv.
+|Sponge Name          |Genomes count|Type| Reference                     |
+|---------------------|-------------|----|-------------------------------|
+|Agelas oroides       |50	          |HMA |doi: 10.1093/femsec/fiv115     |
+|Agelas tubulata      |1            |HMA |doi: 10.1128/mBio.01577-21     |
+|Aplysina aerophoba   |67	          |HMA |doi: 10.1086/BBLv227n1p78      |
+|Aplysina fistularis  |4            |HMA |doi: 10.1086/BBLv227n1p78      |
+|Aplysina fulva	      |1	          |HMA |doi: 10.1007/s00442-007-0910-0 |
+|Chondrilla nucula	  |2	          |HMA |doi: 10.1093/femsec/fiv115     |
+|Chondrosia reniformis|2	          |HMA |doi: 10.1093/femsec/fiv115     |
+|Coscinoderma mathewsi|80	          |HMA |doi: 10.1038/s41598-018-26641-9|
+|Craniella sp.	      |1	          |HMA |doi: 10.3389/fmars.2022.841806 |
+
+The input file, table.tsv, is generated in the first step. The resulting output, filtered in the previous step and annotated with type information in this step, is saved as table2.tsv ((1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml; 5th column - type HMA/LMA).
