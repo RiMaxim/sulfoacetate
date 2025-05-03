@@ -221,3 +221,5 @@ The input file, table.tsv, is generated in the first step (1). The resulting out
 	3.	Sponge species (derived from column 4)
 	4.	Data from biosample_set.xml
 	5.	Type (HMA/LMA)
+
+ # 5. Figure 1
