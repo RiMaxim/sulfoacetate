@@ -1,4 +1,6 @@
-# create_table.sh (Timing < 1.5 h)
+# Generate a table using metadata from GTDB and NCBI XML files.
+
+- Run script ./create_table.sh (Timing < 1.5 h)
 
 – Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 3.2 Gb).
 
