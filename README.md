@@ -60,8 +60,11 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 – A total of 1,646 genomes were associated with sponges, including 1,626 from the GTDB and 20 manually added from published articles (derived from 142 sponge samples: 137 from GTDB and 5 newly added). Of these genomes, 91 were labeled only as Porifera sp., while the remainder were identified to more specific taxonomic levels.
 
 Among the 1,646 genomes:
+
 	•	1,086 genomes (1,085 from GTDB + 1 newly added), originating from 42 sponge species, were classified as HMA (High Microbial Abundance);
+ 
 	•	308 genomes (297 from GTDB + 11 newly added), from 50 sponge species (45 GTDB + 5 newly added), were classified as LMA (Low Microbial Abundance);
+ 
 	•	252 genomes (244 from GTDB + 8 newly added), from 51 sponge species (50 GTDB + 1 newly added), were classified as ND (Not Determined).
 
 The 6 newly added sponge species were Isodictya palmata, Halichondria sitiens, Tethya stolonifera, Scopalina sp., Tsitsikamma favus, and Halisarca dujardinii.
