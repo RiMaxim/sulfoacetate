@@ -51,7 +51,7 @@ Run script ./create_table.sh Output file - table.tsv (1st column - GTDB accessio
 |Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 |Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 
-# 4. Add type HMA / LMA for sponge based on literature (Timing variable)
+# 4. Assign HMA/LMA type to each sponge based on literature sources (Timing variable)
 
 – If at least three studies on species within a genus, or three independent examples, consistently indicated a specific type, that type was assigned to the entire genus. 
 
@@ -215,4 +215,9 @@ The 6 newly added sponge species were Isodictya palmata, Halichondria sitiens, T
 |Tedaniidae sp.	              |2	          |ND  |                                                     |
 |Terpios hoshinota	          |1          	|ND  |                                                     |
 
-The input file, table.tsv, is generated in the first step. The resulting output, filtered in the previous step and annotated with type information in this step, is saved as table2.tsv ((1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml; 5th column - type HMA/LMA).
+The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as table2.tsv, with the following columns:
+	1.	GTDB accession
+	2.	GTDB taxonomy
+	3.	Sponge species (derived from column 4)
+	4.	Data from biosample_set.xml
+	5.	Type (HMA/LMA)
