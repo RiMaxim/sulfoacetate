@@ -1,4 +1,4 @@
-# Generate a table using metadata from GTDB and NCBI XML files (Timing < 1.5 h)
+# 1. Generate a table using metadata from GTDB and NCBI XML files (Timing < 1.5 h)
 
 – Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 3.2 Gb).
 
@@ -12,7 +12,7 @@
 
 Run script ./create_table.sh Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml). If the NCBI XML for a given sample does not contain any mention of ‘sponge’, ‘Sponge’, ‘porifera’, or ‘Porifera’, the fourth column will contain the note: ‘No information about sponge in XML from NCBI’ (135,018 rows). Otherwise, the fourth column will contain the full relevant text extracted from the NCBI XML (1,628 rows). In the third column, if the fourth column contains ‘No information about sponge in XML from NCBI’, the value will be ‘Not sponge’. If the fourth column contains information, the third column will display the name of the sponge species extracted from the fourth column. If the fourth column contains information, but no specific sponge name is found, the default assignment ‘Porifera sp.’ will be used.
 
-# Host information was manually curated using the information from BioProject descriptions and original publications (Timing variable)
+# 2. Host information was manually curated using the information from BioProject descriptions and original publications (Timing variable)
 
 – An additional genome, RS_GCF_001078595.1 (SAMN03777540), was included because, although the XML block for this ID does not mention ‘Sponge’, ‘sponge’, ‘porifera’, or ‘Porifera’, the host organism is a sponge—Oscarella lobularis.
 
@@ -24,7 +24,7 @@ Run script ./create_table.sh Output file - table.tsv (1st column - GTDB accessio
 
 – The identified names were checked for correctness, and any trailing spaces were removed. A comparison between the two tables allows for the detection of all manual corrections.
 
-# Include additional genomes associated with sponges, as identified in the literature (Timing variable)
+# 3. Include additional genomes associated with sponges, as identified in the literature (Timing variable)
 
 – Seven genomes (OTU1, OTU3, OTU7, OTU9, OTU14, OTU4, OTU23) obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes (ID1, ..., ID10) from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
 
@@ -51,7 +51,7 @@ Run script ./create_table.sh Output file - table.tsv (1st column - GTDB accessio
 |Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 |Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 
-# Add type HMA / LMA for sponge based on literature (Timing variable)
+# 4. Add type HMA / LMA for sponge based on literature (Timing variable)
 
 – If at least three studies on species within a genus, or three independent examples, consistently indicated a specific type, that type was assigned to the entire genus. 
 
