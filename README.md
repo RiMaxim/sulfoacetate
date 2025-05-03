@@ -28,15 +28,15 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – Seven genomes obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
 
-|ID   |GTBD Release 10-RS226 (16th April 2025)                                                                         |Sponge Name         |Type| Reference                    |
-|-----|----------------------------------------------------------------------------------------------------------------|--------------------|----|------------------------------|
-|OTU1	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__|Isodictya palmata   |LMA |doi: 10.1101/2025.03.15.643485|
-|OTU14|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Poriferisulfidales; f__;g__;s__	                       |Halichondria sitiens|LMA |doi: 10.1101/2025.03.15.643485|
-|OTU3	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Arenicellales; f__;g__;s__	                           |Halichondria sitiens|LMA |doi: 10.1101/2025.03.15.643485|
-|OTU7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Pseudomonadales; f__Azotimanducaceae;g__UBA9659;s__	   |Halichondria sitiens|LMA |doi: 10.1101/2025.03.15.643485|
-|OTU9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Porifericomitales; f__Porifericomitaceae;g__;s__	     |Halichondria sitiens|LMA |doi: 10.1101/2025.03.15.643485|
-|OTU23|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Puniceispirillales; f__UBA1172;g__JAGWAQ01;s__	       |Halichondria panicea|LMA |doi: 10.1101/2025.03.15.643485|
-|OTU4	|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodobacterales; f__Rhodobacteraceae;g__Amylibacter;s__|Halichondria panicea|LMA |doi: 10.1101/2025.03.15.643485|
+|ID   |GTBD Release 10-RS226 (16th April 2025)                                                                         |Sponge Name         |Type| Reference               |
+|-----|----------------------------------------------------------------------------------------------------------------|--------------------|----|-------------------------|
+|OTU1	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales;f__Persebacteraceae;g__Persebacter;s__|Isodictya palmata   |LMA |10.1101/2025.03.15.643485|
+|OTU14|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Poriferisulfidales;f__;g__;s__	                       |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU3	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Arenicellales;f__;g__;s__	                           |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Pseudomonadales;f__Azotimanducaceae;g__UBA9659;s__	   |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Porifericomitales;f__Porifericomitaceae;g__;s__	     |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU23|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Puniceispirillales;f__UBA1172;g__JAGWAQ01;s__	       |Halichondria panicea|LMA |10.1101/2025.03.15.643485|
+|OTU4	|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Amylibacter;s__|Halichondria panicea|LMA |10.1101/2025.03.15.643485|
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
 
@@ -128,13 +128,13 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Oscarella lobularis          |16          	|LMA |doi: 10.1086/BBLv227n1p78                            |
 |Pione vastifica              |1	          |LMA |doi: 10.1016/j.sjbs.2019.05.002                      |
 |Phakellia elegans            |1	          |LMA |Based on species from the same genus.                |
-|Phyllospongia foliascens     |40         	|LMA |doi: 10.1007/s00338-024-02568-8                      |
-|Polymastia sp.               |2	          |LMA |doi: 10.1111/j.1574-6941.2012.01467.x                |
-|Stylissa flabelliformis      |11         	|LMA |doi: 10.1016/j.scitotenv.2024.17017                  |
-|Tedania ignis                |1	          |LMA |doi: 10.1086/BBLv227n1p78                            |
+|Phyllospongia foliascens     |40         	|LMA |10.1007/s00338-024-02568-8                      |
+|Polymastia sp.               |2	          |LMA |10.1111/j.1574-6941.2012.01467.x                |
+|Stylissa flabelliformis      |11         	|LMA |10.1016/j.scitotenv.2024.17017                  |
+|Tedania ignis                |1	          |LMA |10.1086/BBLv227n1p78                            |
 |Tethya californiana          |2         	  |LMA |Based on species from the same genus.                |
-|Tethya sp.                   |1         	  |LMA |doi: 10.1080/14772000.2024.2383341                   |
-|Vazella pourtalesii          |67	          |LMA |doi: 10.1038/s41598-020-74670-0                      |
+|Tethya sp.                   |1         	  |LMA |10.1080/14772000.2024.2383341                   |
+|Vazella pourtalesii          |67	          |LMA |10.1038/s41598-020-74670-0                      |
 |Aiolochroia sp.              |12	          |ND  |                                                     |
 |Anoxycalyx joubini	          |1	          |ND  |                                                     |
 |Antho dichotoma	            |3	          |ND  |                                                     |
