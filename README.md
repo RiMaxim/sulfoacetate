@@ -44,9 +44,9 @@ Run script ./create_table.sh Output file - table.tsv (1st column - GTDB accessio
 |ID5	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Tsitsikamma favus          |LMA |10.1128/mbio.01577-21     |
 |ID6	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Iophon methanophila        |ND  |10.1128/mbio.01577-21     |
 |ID7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__;g__;s__	                          |Cinachyrella sp.           |ND  |10.1128/mbio.01577-21     |
-|ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
-|ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
-|ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
+|ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Poridera sp.           |ND  |10.1038/s41598-024-56480-w|
+|ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Poridera sp.           |ND  |10.1038/s41598-024-56480-w|
+|ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Poridera sp.           |ND  |10.1038/s41598-024-56480-w|
 |M55B157_sp018609125|	d__Bacteria;p__Actinomycetota; c__Actinomycetes;o__S36-B12; f__S36-B12;g__M55B157;s__M55B157 sp018609125|Halisarca dujardinii |ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 |Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 |Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
