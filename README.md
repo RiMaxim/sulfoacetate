@@ -26,7 +26,7 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 # Include additional genomes associated with sponges, as identified in the literature (Timing variable)
 
-– Seven genomes (OTU1,OTU3,OTU7,OTU9,OTU14,OTU4,OTU23) obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes (ID1,...,ID10) from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
+– Seven genomes (OTU1, OTU3, OTU7, OTU9, OTU14, OTU4, OTU23) obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes (ID1, ..., ID10) from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
 
 |ID   |GTBD Release 10-RS226 (16th April 2025)                                                                          |Sponge Name                |Type| Reference (doi)          |
 |-----|-----------------------------------------------------------------------------------------------------------------|---------------------------|----|--------------------------|
@@ -55,9 +55,9 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – If at least three studies on species within a genus, or three independent examples, consistently indicated a specific type, that type was assigned to the entire genus. 
 
-– Lissodendoryx nobilis was classified as ND (Not Determined), as it was identified as LMA (Low Microbial Abundance) in two studies (doi: 10.1371/journal.pone.0091092, doi.org/10.1016/j.dsr.2024.104416) and as HMA (High Microbial Abundance) in one study (doi: 10.4014/jmb.1406.06041).
+– Coelocarteria singaporensis was classified as HMA (High Microbial Abundance), as it was identified as HMA (High Microbial Abundance)in two studies (10.1128/mBio.01577-21, 10.1016/j.scitotenv.2024.170171) and as LMA (Low Microbial Abundance) in one study (10.1007/s00338-024-02568-8).
 
-– A total of 1,626 genomes were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,074 genomes (from 41 sponge species) were classified as HMA (High Microbial Abundance), 308 genomes (from 46 sponge species) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
+– A total of 1,646 genomes (1,626 from GTDB + 20 from articles) were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,086 genomes (1,085+1, from 42 sponge species (42+0)) were classified as HMA (High Microbial Abundance), 308 genomes (297+11,from 50 sponge species (45+5)) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
 
 |Sponge Name                  |Genomes count|Type| Reference (doi)                                |
 |-----------------------------|-------------|----|------------------------------------------------|
@@ -68,6 +68,7 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Aplysina fulva	              |1	          |HMA |10.1007/s00442-007-0910-0                       |
 |Chondrilla nucula	          |2	          |HMA |10.1093/femsec/fiv115                           |
 |Chondrosia reniformis        |2	          |HMA |10.1093/femsec/fiv115                           |
+|Coelocarteria singaporensis  |12	          |HMA |10.1128/mBio.01577-21                           |
 |Coscinoderma mathewsi        |80	          |HMA |10.1038/s41598-018-26641-9                      |
 |Craniella sp.	              |1	          |HMA |10.3389/fmars.2022.841806                       |
 |Cymbastela coralliophila	    |1	          |HMA |10.1038/s41598-018-26641-9                      |
@@ -115,14 +116,14 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Carteriospongia foliascens   |1	          |LMA |10.1007/s00338-024-02568-8                      |
 |Clathria eurypa              |1	          |LMA |Based on species from the same genus.                |
 |Cliona orientalis            |5	          |LMA |10.1098/rspb.2019.2153                          |
-|Coelocarteria singaporensis  |11	          |LMA |10.1128/mBio.01577-21                           |
-|Crambe crambe                |1	          |LMA |10.1128/mBio.01577-21                           |
+|Crambe crambe                |2	          |LMA |10.1128/mBio.01577-21                           |
 |Crella incrustans	          |1	          |LMA |10.1128/mBio.01577-21                           |
 |Cymbastela concentrica	      |1	          |LMA |10.1093/femsec/fiv115                           |
 |Dysidea tupha                |1	          |LMA |Based on species from the same genus.                |
 |Halichondria bowerbanki      |1	          |LMA |Based on species from the same genus.                |
 |Halichondria okadai          |1	          |LMA |Based on species from the same genus.                |
-|Halichondria panicea         |19	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Halichondria panicea         |21	          |LMA |10.1093/femsec/fiv115                           |
+|Halichondria sitiens	        |4	          |LMA |10.3390/jmse10091312                            |
 |Halichondria sp.             |1	          |LMA |Based on no fewer than three species from this genus.|
 |Haliclona cymaeformis        |1	          |LMA |10.1007/s00338-024-02568-8                      |
 |Haliclona oculata            |25         	|LMA |Based on species from the same genus.                |
@@ -132,6 +133,7 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Hymeniacidon sinapium        |3          	|LMA |10.1093/femsec/fiv115                           |
 |Hymeniacidon sp.             |3          	|LMA |Based on no fewer than three species from this genus.|
 |Ianthella basta              |8	          |LMA |10.3389/fmicb.2017.00752                        |
+|Isodictya palmata            |1            |LMA |10.1101/2025.03.15.643485                       |
 |Lamellodysidea herbacea      |16	          |LMA |10.1007/s00338-024-02568-8                      |
 |Mycale adhaerens             |1	          |LMA |Based on species from the same genus.                |
 |Mycale hentscheli            |27	          |LMA |10.1093/femsec/fiv115                           |
@@ -143,10 +145,13 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Phakellia elegans            |1	          |LMA |Based on species from the same genus.                |
 |Phyllospongia foliascens     |40         	|LMA |10.1007/s00338-024-02568-8                      |
 |Polymastia sp.               |2	          |LMA |10.1111/j.1574-6941.2012.01467.x                |
+|Scopalina sp.                |1	          |LMA |10.1128/mBio.01577-21                           |
 |Stylissa flabelliformis      |11         	|LMA |10.1016/j.scitotenv.2024.17017                  |
 |Tedania ignis                |1	          |LMA |10.1086/BBLv227n1p78                            |
 |Tethya californiana          |2         	  |LMA |Based on species from the same genus.                |
+|Tethya stolonifera	          |1            |LMA |10.1093/femsec/fiv115                           |
 |Tethya sp.                   |1         	  |LMA |10.1080/14772000.2024.2383341                   |
+|Tsitsikamma favus            |1	          |LMA |10.1128/mBio.01577-21                           |
 |Vazella pourtalesii          |67	          |LMA |10.1038/s41598-020-74670-0                      |
 |Aiolochroia sp.              |12	          |ND  |                                                     |
 |Anoxycalyx joubini	          |1	          |ND  |                                                     |
@@ -154,7 +159,7 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |Arenosclera brasiliensis	    |2	          |ND  |                                                     |
 |Cacospongia mycofijiensis    |1	          |ND  |                                                     |
 |Chalinula sp.	              |1	          |ND  |                                                     |
-Cinachyrella australiensis    |2          	|ND  |                                                     |
+|Cinachyrella australiensis   |2          	|ND  |                                                     |
 |Cinachyrella kuekenthali	    |1          	|ND  |                                                     |
 |Cinachyrella sp.	            |1	          |ND  |                                                     |
 |Clathrina clathrus	          |1	          |ND  |                                                     |
@@ -168,11 +173,12 @@ Cinachyrella australiensis    |2          	|ND  |                               
 |Fascaplysinopsis reticulata	|1	          |ND  |                                                     |
 |Forcepia sp.	                |1	          |ND  |                                                     |
 |Haliclonissa verrucosa	      |1           	|ND  |                                                     |
+|Halisarca dujardinii         |3            |ND  |                                                     |
 |Haplosclerida sp.	          |5	          |ND  |                                                     |
 |Hexactinellida sp.	          |2	          |ND  |                                                     |
 |Hyattella lendenfeldi	      |1	          |ND  |                                                     |
 |Hymedesmia methanophila	    |1	          |ND  |                                                     |
-|Iophon methanophila	        |1	          |ND  |                                                     |
+|Iophon methanophila	        |2	          |ND  |                                                     |
 |Iophon sp.                   |2	          |ND  |                                                     |
 |Iotrochota sp	              |1            |ND  |                                                     |
 |Leiodermatium sp.	          |1          	|ND  |                                                     |
@@ -184,7 +190,7 @@ Cinachyrella australiensis    |2          	|ND  |                               
 |Pheronema carpenteri	        |2          	|ND  |                                                     |
 |Poecillastra wondoensis      |1          	|ND  |                                                     |
 |Poecilosclerida sp.	        |2          	|ND  |                                                     |
-|Porifera sp.	                |88	          |ND  |                                                     |
+|Porifera sp.	                |91	          |ND  |                                                     |
 |Pseudaxinella sp.	          |1          	|ND  |                                                     |
 |Sarcotragus foetidus	        |1	          |ND  |                                                     |
 |Spheciospongia confoederata	|1          	|ND  |                                                     |
