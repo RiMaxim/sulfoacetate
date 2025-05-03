@@ -28,7 +28,7 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – Seven genomes obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
 
-|ID   |GTBD Release 10-RS226 (16th April 2025)                                                                         |Sponge Name         |Type| Reference               |
+|ID   |GTBD Release 10-RS226 (16th April 2025)                                                                         |Sponge Name         |Type| Reference (doi)         |
 |-----|----------------------------------------------------------------------------------------------------------------|--------------------|----|-------------------------|
 |OTU1	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__|Isodictya palmata   |LMA |10.1101/2025.03.15.643485|
 |OTU14|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Poriferisulfidales; f__;g__;s__	                       |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
@@ -46,87 +46,87 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 – A total of 1,626 genomes were associated with sponges (88 were labeled as Porifera sp., while the others were identified to more specific taxonomic levels). Among these, 1,074 genomes (from 41 sponge species) were classified as HMA (High Microbial Abundance), 308 genomes (from 46 sponge species) as LMA (Low Microbial Abundance), and 244 genomes (from 50 sponge species) as ND (Not Determined).
 
-|Sponge Name                  |Genomes count|Type| Reference                                           |
-|-----------------------------|-------------|----|-----------------------------------------------------|
-|Agelas oroides               |50	          |HMA |doi: 10.1093/femsec/fiv115                           |
-|Agelas tubulata              |1            |HMA |doi: 10.1128/mBio.01577-21                           |
-|Aplysina aerophoba           |67	          |HMA |doi: 10.1086/BBLv227n1p78                            |
-|Aplysina fistularis          |4            |HMA |doi: 10.1086/BBLv227n1p78                            |
-|Aplysina fulva	              |1	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
-|Chondrilla nucula	          |2	          |HMA |doi: 10.1093/femsec/fiv115                           |
-|Chondrosia reniformis        |2	          |HMA |doi: 10.1093/femsec/fiv115                           |
-|Coscinoderma mathewsi        |80	          |HMA |doi: 10.1038/s41598-018-26641-9                      |
-|Craniella sp.	              |1	          |HMA |doi: 10.3389/fmars.2022.841806                       |
-|Cymbastela coralliophila	    |1	          |HMA |doi: 10.1038/s41598-018-26641-9                      |
-|Diacarnus erythraeanus	      |1	          |HMA |doi: 10.1002/lno.12361                               |
-|Geodia barretti         	    |1	          |HMA |doi: 10.1038/s41598-020-74670-0                      |
+|Sponge Name                  |Genomes count|Type| Reference (doi)                                |
+|-----------------------------|-------------|----|------------------------------------------------|
+|Agelas oroides               |50	          |HMA |10.1093/femsec/fiv115                           |
+|Agelas tubulata              |1            |HMA |10.1128/mBio.01577-21                           |
+|Aplysina aerophoba           |67	          |HMA |10.1086/BBLv227n1p78                            |
+|Aplysina fistularis          |4            |HMA |10.1086/BBLv227n1p78                            |
+|Aplysina fulva	              |1	          |HMA |10.1007/s00442-007-0910-0                       |
+|Chondrilla nucula	          |2	          |HMA |10.1093/femsec/fiv115                           |
+|Chondrosia reniformis        |2	          |HMA |10.1093/femsec/fiv115                           |
+|Coscinoderma mathewsi        |80	          |HMA |10.1038/s41598-018-26641-9                      |
+|Craniella sp.	              |1	          |HMA |10.3389/fmars.2022.841806                       |
+|Cymbastela coralliophila	    |1	          |HMA |10.1038/s41598-018-26641-9                      |
+|Diacarnus erythraeanus	      |1	          |HMA |10.1002/lno.12361                               |
+|Geodia barretti         	    |1	          |HMA |10.1038/s41598-020-74670-0                      |
 |Geodia parva	                |62           |HMA |Based on species from the same genus.                |
 |Geodia sp.	                  |1            |HMA |Based on no fewer than three species from this genus.|
-|Ircinia campana         	    |9           	|HMA |doi: 10.3389/fmars.2021.665789                       |
-|Ircinia felix	              |45	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
-|Ircinia ramosa	              |154          |HMA |doi: 10.1128/mBio.01577-21                           |
+|Ircinia campana         	    |9           	|HMA |10.3389/fmars.2021.665789                       |
+|Ircinia felix	              |45	          |HMA |10.1007/s00442-007-0910-0                       |
+|Ircinia ramosa	              |154          |HMA |10.1128/mBio.01577-21                           |
 |Ircinia reteplana      	    |37           |HMA |Based on species from the same genus.                |
 |Ircinia sp.	                |116          |HMA |Based on no fewer than three species from this genus.|
-|Ircinia strobilina	          |12           |HMA |doi: 10.1007/s00442-007-0910-0                       |
-|Ircinia variabilis	          |1	          |HMA |doi: 10.1093/femsec/fiv115                           |
-|Lissodendoryx isodictyalis   |2            |HMA |doi: 10.4014/jmb.1406.06041                          |
-|Melophlus sp.	              |1	          |HMA |doi: 10.1128/mBio.01577-21                           |
-|Penares incrustans	          |1            |HMA |doi: 10.4014/jmb.1406.06041                          |
-|Petrosia ficiformis	        |88           |HMA |doi: 10.1093/femsec/fiv115                           |
+|Ircinia strobilina	          |12           |HMA |10.1007/s00442-007-0910-0                       |
+|Ircinia variabilis	          |1	          |HMA |10.1093/femsec/fiv115                           |
+|Lissodendoryx isodictyalis   |2            |HMA |10.4014/jmb.1406.06041                          |
+|Melophlus sp.	              |1	          |HMA |10.1128/mBio.01577-21                           |
+|Penares incrustans	          |1            |HMA |10.4014/jmb.1406.06041                          |
+|Petrosia ficiformis	        |88           |HMA |10.1093/femsec/fiv115                           |
 |Plakortis simplex	          |2            |HMA |Based on species from the same genus.                |
-|Plakortis sp.	              |1	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
-|Pseudoceratina sp.	          |5	          |HMA |doi: 10.1128/mBio.01577-21                           |
-|Rhabdastrella globostellata	|2	          |HMA |doi: 10.3389/fmicb.2017.00752                        |
-|Rhopaloeides odorabile	      |109	        |HMA |doi: 10.3389/fmicb.2017.00752                        |
-|Sarcotragus spinosulus	      |4	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Plakortis sp.	              |1	          |HMA |10.1007/s00442-007-0910-0                       |
+|Pseudoceratina sp.	          |5	          |HMA |10.1128/mBio.01577-21                           |
+|Rhabdastrella globostellata	|2	          |HMA |10.3389/fmicb.2017.00752                        |
+|Rhopaloeides odorabile	      |109	        |HMA |10.3389/fmicb.2017.00752                        |
+|Sarcotragus spinosulus	      |4	          |HMA |10.1093/femsec/fiv115                           |
 |Spongia barbara	            |1	          |HMA |Crouch, Barbara C. Survival and Growth of Sponge Recruits in a Land-Based Nursery. MS thesis. Florida Atlantic University, 2022.|
-|Spongia officinalis	        |90	          |HMA |doi: 10.1093/femsec/fiv115                           |
+|Spongia officinalis	        |90	          |HMA |10.1093/femsec/fiv115                           |
 |Spongia sp.	                |18	          |HMA |Based on no fewer than three species from this genus.|
-|Theonella swinhoei	          |9	          |HMA |doi: 10.1007/s00338-024-02568-8                      |
-|Thoosa mismalolli	          |3	          |HMA |doi: 10.1038/s41598-025-85622-x                      |
-|Verongula gigantea	          |1	          |HMA |doi: 10.1086/BBLv227n1p78                            |
+|Theonella swinhoei	          |9	          |HMA |10.1007/s00338-024-02568-8                      |
+|Thoosa mismalolli	          |3	          |HMA |10.1038/s41598-025-85622-x                      |
+|Verongula gigantea	          |1	          |HMA |10.1086/BBLv227n1p78                            |
 |Xestospongia bergquistia	    |62	          |HMA |Based on species from the same genus.                |
-|Xestospongia muta	          |24	          |HMA |doi: 10.1007/s00442-007-0910-0                       |
+|Xestospongia muta	          |24	          |HMA |10.1007/s00442-007-0910-0                       |
 |Xestospongia sp.	            |2	          |HMA |Based on no fewer than three species from this genus.|
-|Xestospongia testudinaria	  |1	          |HMA |doi: 10.1093/femsec/fiz169                           |
-|Acanthella acuta             |1	          |LMA |doi: 10.1086/BBLv227n1p78                            |
-|Amphimedon queenslandica 	  |3	          |LMA |doi: 10.1128/mBio.01577-21                           |
-|Aphrocallistes beatrix       |1	          |LMA |doi: 10.1093/ismejo/wrae197                          |
-|Axinella damicornis          |7	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Xestospongia testudinaria	  |1	          |HMA |10.1093/femsec/fiz169                           |
+|Acanthella acuta             |1	          |LMA |10.1086/BBLv227n1p78                            |
+|Amphimedon queenslandica 	  |3	          |LMA |10.1128/mBio.01577-21                           |
+|Aphrocallistes beatrix       |1	          |LMA |10.1093/ismejo/wrae197                          |
+|Axinella damicornis          |7	          |LMA |10.1093/femsec/fiv115                           |
 |Axinella dissimilis          |1	          |LMA |Based on species from the same genus.                |
-|Axinella polypoides	        |2	          |LMA |doi: 10.1086/BBLv227n1p78                            |
+|Axinella polypoides	        |2	          |LMA |10.1086/BBLv227n1p78                            |
 |Axinella sp.                 |1	          |LMA |Based on no fewer than three species from this genus.|
-|Axinella verrucosa           |1	          |LMA |doi: /10.12688/openreseurope.19755.1                 |
+|Axinella verrucosa           |1	          |LMA |10.12688/openreseurope.19755.1                 |
 |Callyspongia serpentina      |2          	|LMA |Based on species from the same genus.                |
-|Callyspongia sp.             |5          	|LMA |doi: 10.1093/femsec/fiv115                           |
-|Carteriospongia foliascens   |1	          |LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Callyspongia sp.             |5          	|LMA |10.1093/femsec/fiv115                           |
+|Carteriospongia foliascens   |1	          |LMA |10.1007/s00338-024-02568-8                      |
 |Clathria eurypa              |1	          |LMA |Based on species from the same genus.                |
-|Cliona orientalis            |5	          |LMA |doi: 10.1098/rspb.2019.2153                          |
-|Coelocarteria singaporensis  |11	          |LMA |doi: 10.1128/mBio.01577-21                           |
-|Crambe crambe                |1	          |LMA |doi: 10.1128/mBio.01577-21                           |
-|Crella incrustans	          |1	          |LMA |doi: 10.1128/mBio.01577-21                           |
-|Cymbastela concentrica	      |1	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Cliona orientalis            |5	          |LMA |10.1098/rspb.2019.2153                          |
+|Coelocarteria singaporensis  |11	          |LMA |10.1128/mBio.01577-21                           |
+|Crambe crambe                |1	          |LMA |10.1128/mBio.01577-21                           |
+|Crella incrustans	          |1	          |LMA |10.1128/mBio.01577-21                           |
+|Cymbastela concentrica	      |1	          |LMA |10.1093/femsec/fiv115                           |
 |Dysidea tupha                |1	          |LMA |Based on species from the same genus.                |
 |Halichondria bowerbanki      |1	          |LMA |Based on species from the same genus.                |
 |Halichondria okadai          |1	          |LMA |Based on species from the same genus.                |
 |Halichondria panicea         |19	          |LMA |doi: 10.1093/femsec/fiv115                           |
 |Halichondria sp.             |1	          |LMA |Based on no fewer than three species from this genus.|
-|Haliclona cymaeformis        |1	          |LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Haliclona cymaeformis        |1	          |LMA |10.1007/s00338-024-02568-8                      |
 |Haliclona oculata            |25         	|LMA |Based on species from the same genus.                |
 |Haliclona sp.                |3	          |LMA |Based on no fewer than three species from this genus.|
-|Haliclona xena               |3	          |LMA |doi: 10.1111/1574-6941.12400                         |
-|Halisarca caerulea           |1	          |LMA |doi: 10.1002/lno.11384                               |
-|Hymeniacidon sinapium        |3          	|LMA |doi: 10.1093/femsec/fiv115                           |
+|Haliclona xena               |3	          |LMA |10.1111/1574-6941.12400                         |
+|Halisarca caerulea           |1	          |LMA |10.1002/lno.11384                               |
+|Hymeniacidon sinapium        |3          	|LMA |10.1093/femsec/fiv115                           |
 |Hymeniacidon sp.             |3          	|LMA |Based on no fewer than three species from this genus.|
-|Ianthella basta              |8	          |LMA |doi: 10.3389/fmicb.2017.00752                        |
-|Lamellodysidea herbacea      |16	          |LMA |doi: 10.1007/s00338-024-02568-8                      |
+|Ianthella basta              |8	          |LMA |10.3389/fmicb.2017.00752                        |
+|Lamellodysidea herbacea      |16	          |LMA |10.1007/s00338-024-02568-8                      |
 |Mycale adhaerens             |1	          |LMA |Based on species from the same genus.                |
-|Mycale hentscheli            |27	          |LMA |doi: 10.1093/femsec/fiv115                           |
+|Mycale hentscheli            |27	          |LMA |10.1093/femsec/fiv115                           |
 |Mycale phyllophila           |4	          |LMA |Based on species from the same genus.                |
 |Mycale sp.                   |1	          |LMA |Based on no fewer than three species from this genus.|
-|Ophlitaspongia papilla       |2	          |LMA |doi: 10.1371/journal.pone.0080653                    |
-|Oscarella lobularis          |16          	|LMA |doi: 10.1086/BBLv227n1p78                            |
-|Pione vastifica              |1	          |LMA |doi: 10.1016/j.sjbs.2019.05.002                      |
+|Ophlitaspongia papilla       |2	          |LMA |10.1371/journal.pone.0080653                    |
+|Oscarella lobularis          |16          	|LMA |10.1086/BBLv227n1p78                            |
+|Pione vastifica              |1	          |LMA |10.1016/j.sjbs.2019.05.002                      |
 |Phakellia elegans            |1	          |LMA |Based on species from the same genus.                |
 |Phyllospongia foliascens     |40         	|LMA |10.1007/s00338-024-02568-8                      |
 |Polymastia sp.               |2	          |LMA |10.1111/j.1574-6941.2012.01467.x                |
