@@ -226,4 +226,6 @@ The input file, table.tsv, is generated in the first step (1). The resulting out
 	4.	Data from biosample_set.xml
 	5.	Type (HMA/LMA)
 
+A total of 1,646 genomes were associated with sponges, while 135,020 genomes had no sponge-related information in the XML metadata from NCBI.
+
  # 5. Figure 1
