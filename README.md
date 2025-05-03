@@ -30,13 +30,13 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 |ID   |GTBD Release 10-RS226 (16th April 2025)                                                                         |Sponge Name         |Type| Reference               |
 |-----|----------------------------------------------------------------------------------------------------------------|--------------------|----|-------------------------|
-|OTU1	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales;f__Persebacteraceae;g__Persebacter;s__|Isodictya palmata   |LMA |10.1101/2025.03.15.643485|
-|OTU14|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Poriferisulfidales;f__;g__;s__	                       |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
-|OTU3	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Arenicellales;f__;g__;s__	                           |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
-|OTU7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Pseudomonadales;f__Azotimanducaceae;g__UBA9659;s__	   |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
-|OTU9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Porifericomitales;f__Porifericomitaceae;g__;s__	     |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
-|OTU23|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Puniceispirillales;f__UBA1172;g__JAGWAQ01;s__	       |Halichondria panicea|LMA |10.1101/2025.03.15.643485|
-|OTU4	|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Amylibacter;s__|Halichondria panicea|LMA |10.1101/2025.03.15.643485|
+|OTU1	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__|Isodictya palmata   |LMA |10.1101/2025.03.15.643485|
+|OTU14|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Poriferisulfidales; f__;g__;s__	                       |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU3	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Arenicellales; f__;g__;s__	                           |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Pseudomonadales; f__Azotimanducaceae;g__UBA9659;s__	   |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Porifericomitales; f__Porifericomitaceae;g__;s__	     |Halichondria sitiens|LMA |10.1101/2025.03.15.643485|
+|OTU23|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Puniceispirillales; f__UBA1172;g__JAGWAQ01;s__	       |Halichondria panicea|LMA |10.1101/2025.03.15.643485|
+|OTU4	|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodobacterales; f__Rhodobacteraceae;g__Amylibacter;s__|Halichondria panicea|LMA |10.1101/2025.03.15.643485|
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
 
