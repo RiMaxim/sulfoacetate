@@ -26,7 +26,7 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 
 # Include additional genomes associated with sponges, as identified in the literature (Timing variable)
 
-– Seven genomes obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
+– Seven genomes (OTU1,OTU3,OTU7,OTU9,OTU14,OTU4,OTU23) obtained in our previous studies (doi: 10.1101/2025.03.15.643485), along with 10 genomes (ID1,...,ID10) from published sources (dois: 10.1038/s41396-020-00791-z, 10.1128/mbio.01577-21, and 10.1038/s41598-024-56480-w) and 3 genomes from unpublished data provided by the Koltzov Institute of Developmental Biology, Russian Academy of Sciences, which were absent from the GTDB database, were manually added to the set of 1,626 genomes.
 
 |ID   |GTBD Release 10-RS226 (16th April 2025)                                                                          |Sponge Name                |Type| Reference (doi)          |
 |-----|-----------------------------------------------------------------------------------------------------------------|---------------------------|----|--------------------------|
@@ -47,6 +47,9 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
 |ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
 |ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
+|M55B157_sp018609125|	d__Bacteria;p__Actinomycetota; c__Actinomycetes;o__S36-B12; f__S36-B12;g__M55B157;s__M55B157 sp018609125|Halisarca dujardinii|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
+|Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
+|Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
 
