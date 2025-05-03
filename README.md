@@ -47,9 +47,9 @@ Output file - table.tsv (1st column - GTDB accession; 2nd column - GTDB taxonomy
 |ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
 |ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
 |ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Antarctic sponge           |ND  |10.1038/s41598-024-56480-w|
-|M55B157_sp018609125|	d__Bacteria;p__Actinomycetota; c__Actinomycetes;o__S36-B12; f__S36-B12;g__M55B157;s__M55B157 sp018609125|Halisarca dujardinii |ND  |Koltzov Institute of Developmental Biology, RAS|
-|Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, RAS|
-|Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, RAS|
+|M55B157_sp018609125|	d__Bacteria;p__Actinomycetota; c__Actinomycetes;o__S36-B12; f__S36-B12;g__M55B157;s__M55B157 sp018609125|Halisarca dujardinii |ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
+|Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
+|Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |Koltzov Institute of Developmental Biology, Russian Academy of Sciences|
 
 # Add type HMA / LMA for sponge based on literature (Timing variable)
 
