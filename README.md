@@ -228,4 +228,17 @@ The input file, table.tsv, is generated in the first step (1). The resulting out
 
 A total of 1,646 genomes were associated with sponges, while 135,020 genomes had no sponge-related information in the XML metadata from NCBI.
 
- # 5. Figure 1
+# 5. Figure 1 (Timing < 1 min)
+
+Distributions of bacterial family size (number of representative genomes) and a sponge score (proportion of representative genomes isolated from sponge metagenomes) for bacterial families encountered at least one representative genome isolated from a sponge metagenome.
+
+ – Run script ./create_table.sh 
+ 
+Input file is table2.tsv.gz
+
+Output file is input_file_for_figure1.tsv (286 unuque raws. 1st column - GTDB taxonomy based on family isolated from sponge metagenomes; 2nd column - number of representative genomes isolated from sponge metagenomes; 3rd column - number of representative genomes; 4th column - logariphm of number of representative genomes; 5th column - proportion of representative genomes isolated from sponge metagenomes; 6th column - type of family (exclusively sponge-associated (74), mixed (53), occasionally sponge-associated (159)).
+
+
+
+
+ 
