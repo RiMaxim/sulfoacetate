@@ -258,7 +258,13 @@ Mixed (0.25 < Sponge Score < 0.75) – 53 families.
 
 Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
 
+ – Run script figure_1.R 
 
+Input Data:
+The input file is a file named input_file_for_figure1.tsv
+
+Output Data:
+The output file, input_file_for_figure1.svg, contains 286 unique entries. The columns are structured as follows:
 
 
  
