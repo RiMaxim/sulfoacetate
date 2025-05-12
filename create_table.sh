@@ -69,6 +69,7 @@ TS=$(date +%s)
 cat tmp5 |awk -F'\t' '{print $2"\t"$3"\t"$1"\t"$4}' >tmp6
 cat tmp6 tmp4 >table.tsv
 sed -i 's/\bsp\b/sp./g' table.tsv
+pigz table.tsv
 
 # Final table structure:
 # 1st column - GTDB accession
