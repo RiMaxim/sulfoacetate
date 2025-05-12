@@ -234,10 +234,8 @@ Distributions of bacterial family size (number of representative genomes) and a 
 
  – Run script ./create_figure_1.sh 
 
-Input Data:
 The input file is a file named table2.tsv.gz.
 
-Output Data:
 The output file, input_file_for_figure1.tsv, contains 286 unique entries. The columns are structured as follows:
 
 1st column, GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
@@ -260,11 +258,9 @@ Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
 
  – Run script figure_1.R 
 
-Input Data:
 The input file is a file named input_file_for_figure1.tsv
 
-Output Data:
-The output file, input_file_for_figure1.svg, contains 286 unique entries. The columns are structured as follows:
+The output file, figure_1.svg
 
 
  
