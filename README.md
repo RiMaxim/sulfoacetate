@@ -233,10 +233,25 @@ A total of 1,646 genomes were associated with sponges, while 135,020 genomes had
 Distributions of bacterial family size (number of representative genomes) and a sponge score (proportion of representative genomes isolated from sponge metagenomes) for bacterial families encountered at least one representative genome isolated from a sponge metagenome.
 
  – Run script ./create_table.sh 
- 
-Input file is table2.tsv.gz
 
-Output file is input_file_for_figure1.tsv (286 unuque raws. 1st column - GTDB taxonomy based on family isolated from sponge metagenomes; 2nd column - number of representative genomes isolated from sponge metagenomes; 3rd column - number of representative genomes; 4th column - logariphm of number of representative genomes; 5th column - proportion of representative genomes isolated from sponge metagenomes; 6th column - type of family (exclusively sponge-associated (74), mixed (53), occasionally sponge-associated (159)).
+Input Data:
+The input file is a file named table2.tsv.gz.
+
+Output Data:
+The output file, input_file_for_figure1.tsv, contains 286 unique entries. The columns are structured as follows:
+
+GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
+Sponge-Associated Genomes – Number of representative genomes derived from sponge metagenomes.
+Total Representative Genomes – Total number of representative genomes in the dataset.
+Logarithm of Representative Genomes – Base-10 logarithm of the total representative genomes
+Sponge Score – Proportion of representative genomes isolated from sponge metagenomes, calculated as:
+
+Sponge Score = Sponge-Associated Genomes / Total Representative Genomes
+​	
+Family Classification – Categorization of each family into one of three types based on Sponge Score:
+Exclusively sponge-associated (Sponge Score ≥ 0.75) – 74 families.
+Mixed (0.25 < Sponge Score < 0.75) – 53 families.
+Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
 
 
 
