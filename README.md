@@ -219,7 +219,7 @@ The 6 newly added sponge species were Isodictya palmata, Halichondria sitiens, T
 |Tedaniidae sp.	              |2	          |ND  |                                                     |
 |Terpios hoshinota	          |1          	|ND  |                                                     |
 
-The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as table2.tsv, with the following columns:
+The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as table2.tsv.gz, with the following columns:
 	1.	GTDB accession
 	2.	GTDB taxonomy
 	3.	Sponge species (derived from column 4)
