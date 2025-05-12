@@ -41,4 +41,4 @@ p <- ggplot(data, aes(x = V4, y = V5, color = V6)) +
 p_with_marginals <- ggMarginal(p, type = "histogram", groupFill = T, groupColour = TRUE, size=5, alpha=0.6)
 
 # Save plot as SVG
-ggsave("Desktop/sulfoacetate/figure1.svg", plot = p_with_marginals, width = 8, height = 8, dpi = 600)
+ggsave("Desktop/sulfoacetate/figure_1.svg", plot = p_with_marginals, width = 8, height = 8, dpi = 600)
