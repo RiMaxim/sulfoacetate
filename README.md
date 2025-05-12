@@ -241,16 +241,23 @@ Output Data:
 The output file, input_file_for_figure1.tsv, contains 286 unique entries. The columns are structured as follows:
 
 GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
+
 Sponge-Associated Genomes – Number of representative genomes derived from sponge metagenomes.
+
 Total Representative Genomes – Total number of representative genomes in the dataset.
+
 Logarithm of Representative Genomes – Base-10 logarithm of the total representative genomes
+
 Sponge Score – Proportion of representative genomes isolated from sponge metagenomes, calculated as:
 
 Sponge Score = Sponge-Associated Genomes / Total Representative Genomes
-​	
+
 Family Classification – Categorization of each family into one of three types based on Sponge Score:
+
 Exclusively sponge-associated (Sponge Score ≥ 0.75) – 74 families.
+
 Mixed (0.25 < Sponge Score < 0.75) – 53 families.
+
 Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
 
 
