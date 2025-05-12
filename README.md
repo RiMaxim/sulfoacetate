@@ -232,7 +232,7 @@ A total of 1,646 genomes were associated with sponges, while 135,020 genomes had
 
 Distributions of bacterial family size (number of representative genomes) and a sponge score (proportion of representative genomes isolated from sponge metagenomes) for bacterial families encountered at least one representative genome isolated from a sponge metagenome.
 
- – Run script ./create_table.sh 
+ – Run script ./create_figure_1.sh 
 
 Input Data:
 The input file is a file named table2.tsv.gz.
@@ -240,19 +240,17 @@ The input file is a file named table2.tsv.gz.
 Output Data:
 The output file, input_file_for_figure1.tsv, contains 286 unique entries. The columns are structured as follows:
 
-GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
+1st column, GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
 
-Sponge-Associated Genomes – Number of representative genomes derived from sponge metagenomes.
+2nd column, Sponge-Associated Genomes – Number of representative genomes derived from sponge metagenomes.
 
-Total Representative Genomes – Total number of representative genomes in the dataset.
+3rd column, Total Representative Genomes – Total number of representative genomes in the dataset.
 
-Logarithm of Representative Genomes – Base-10 logarithm of the total representative genomes
+4th column, Logarithm of Representative Genomes – Base-10 logarithm of the total representative genomes
 
-Sponge Score – Proportion of representative genomes isolated from sponge metagenomes, calculated as:
+5th column, Sponge Score – Proportion of representative genomes isolated from sponge metagenomes, calculated as ratio Sponge-Associated Genomes to Total Representative Genomes
 
-Sponge Score = Sponge-Associated Genomes / Total Representative Genomes
-
-Family Classification – Categorization of each family into one of three types based on Sponge Score:
+6th column, Family Classification – Categorization of each family into one of three types based on Sponge Score:
 
 Exclusively sponge-associated (Sponge Score ≥ 0.75) – 74 families.
 
