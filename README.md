@@ -262,5 +262,5 @@ The input file is a file named input_file_for_figure1.tsv
 
 The output file, figure_1.svg
 
-
+# 6. Contol group (Timing 4 min)
  
