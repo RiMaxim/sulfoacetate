@@ -219,7 +219,7 @@ The 6 newly added sponge species were Isodictya palmata, Halichondria sitiens, T
 |Tedaniidae sp.	              |2	          |ND  |                                                     |
 |Terpios hoshinota	          |1          	|ND  |                                                     |
 
-The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as table2.tsv.gz, with the following columns:
+The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz), with the following columns:
 	1.	GTDB accession
 	2.	GTDB taxonomy
 	3.	Sponge species (derived from column 4)
@@ -234,9 +234,9 @@ Distributions of bacterial family size (number of representative genomes) and a 
 
  – Run script ./create_figure_1.sh 
 
-The input file is a file named table2.tsv.gz.
+The input file is a file named [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz)
 
-The output file, input_file_for_figure1.tsv, contains 286 unique entries. The columns are structured as follows:
+The output file, [![input_file_for_figure1.tsv](https://img.shields.io/badge/input_file_for_figure1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure1.tsv), contains 286 unique entries. The columns are structured as follows:
 
 1st column, GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
 
