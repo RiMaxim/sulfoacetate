@@ -1,5 +1,6 @@
-#table2.tsv - initial file
+#table2.tsv.gz - initial file
 
+gunzip table2.tsv.gz
 cat table2.tsv |awk -F'\t' '{if($3 != "Not sponge") print $0}' >tmp1  #tmp1 - genomes assosiated with sponge, 1646
 cat tmp1 |awk -F'\t' '{print $2}' |awk -F';g__' '{print $1}' |sort|uniq -c|awk -F' ' '{print $2"\t"$1}' >tmp2 #tmp2 - 286 unique families for 1646 genomes
 cat table2.tsv |awk -F'\t' '{print $2}' |awk -F';g__' '{print $1}' |sort|uniq -c|awk -F' ' '{print $2"\t"$1}' >tmp3 #tmp3 - 5332 unique families for all representive genomes 136666
