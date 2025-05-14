@@ -236,7 +236,7 @@ Distributions of bacterial family size (number of representative genomes) and a 
 
 The input file is a file named [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz)
 
-The output file, [![input_file_for_figure1.tsv](https://img.shields.io/badge/input_file_for_figure1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure1.tsv), contains 286 unique entries. The columns are structured as follows:
+The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv), contains 286 unique entries. The columns are structured as follows:
 
 1st column, GTDB Taxonomy – Family-level taxonomic classification based on genomes isolated from sponge metagenomes.
 
@@ -258,9 +258,9 @@ Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
 
  – Run script figure_1.R 
 
-The input file is a file named input_file_for_figure1.tsv
+The input file is a file named [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv)
 
-The output file, figure_1.svg
+The output file, [![figure_1.svg](https://img.shields.io/badge/figure_1.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_1.svg)
 
 # 6. Contol group (Timing 4 min)
  
