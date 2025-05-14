@@ -248,13 +248,13 @@ The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/in
 
 5th column, Sponge Score – Proportion of representative genomes isolated from sponge metagenomes, calculated as ratio Sponge-Associated Genomes to Total Representative Genomes
 
-6th column, Family Classification – Categorization of each family into one of three types based on Sponge Score:
+6th column, Family Classification – Categorization of each family into one of three types based on **Sponge Score**:
 
-Exclusively sponge-associated (Sponge Score ≥ 0.75) – 74 families.
+**Exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families.
 
-Mixed (0.25 < Sponge Score < 0.75) – 53 families.
+**Mixed** (0.25 < Sponge Score < 0.75) – 53 families.
 
-Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
+**Occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families.
 
 >Run script figure_1.R 
 
