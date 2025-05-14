@@ -1,6 +1,6 @@
 # 1. Generate a table using metadata from GTDB and NCBI XML files (Timing < 1.5 h)
 
->Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 3.2 Gb).
+– Download and decompress gzip files from GTDB (bac120_metadata_r226.tsv.gz, 2025-04-08 13:37, 225 MB; bac120_r226.tree.gz, 2025-04-08 13:38, 1.6 MB) and NCBI (biosample_set.xml.gz, 3.2 Gb).
 
 – Extracting representive genomes from bac120_metadata_r226.tsv (GTDB).
 
@@ -10,7 +10,7 @@
 
 – Add sponge species.
 
-– Run script ./create_table.sh 
+|Run script ./create_table.sh 
 
 – Output file - [![table.tsv.gz](https://img.shields.io/badge/table.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table.tsv.gz) (1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml). If the NCBI XML for a given sample does not contain any mention of ‘sponge’, ‘Sponge’, ‘porifera’, or ‘Porifera’, the fourth column will contain the note: ‘No information about sponge in XML from NCBI’ (135,018 rows). Otherwise, the fourth column will contain the full relevant text extracted from the NCBI XML (1,628 rows). In the third column, if the fourth column contains ‘No information about sponge in XML from NCBI’, the value will be ‘Not sponge’. If the fourth column contains information, the third column will display the name of the sponge species extracted from the fourth column. If the fourth column contains information, but no specific sponge name is found, the default assignment ‘Porifera sp.’ will be used.
 
@@ -232,7 +232,7 @@ A total of 1,646 genomes were associated with sponges, while 135,020 genomes had
 
 Distributions of bacterial family size (number of representative genomes) and a sponge score (proportion of representative genomes isolated from sponge metagenomes) for bacterial families encountered at least one representative genome isolated from a sponge metagenome.
 
- – Run script ./create_figure_1.sh 
+|Run script ./create_figure_1.sh 
 
 The input file is a file named [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz)
 
@@ -256,7 +256,7 @@ Mixed (0.25 < Sponge Score < 0.75) – 53 families.
 
 Occasionally sponge-associated (Sponge Score ≤ 0.25) – 159 families.
 
- – Run script figure_1.R 
+|Run script figure_1.R 
 
 The input file is a file named [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv)
 
