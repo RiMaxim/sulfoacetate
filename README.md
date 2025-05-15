@@ -250,11 +250,11 @@ The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/in
 
 6th column, Family Classification – Categorization of each family into one of three types based on **Sponge Score**:
 
-**Exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families.
+**Exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families, 453 genomes.
 
-**Mixed** (0.25 < Sponge Score < 0.75) – 53 families.
+**Mixed** (0.25 < Sponge Score < 0.75) – 53 families, 487 genomes.
 
-**Occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families.
+**Occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families, 706 genomes.
 
 >Run script figure_1.R 
 
@@ -262,5 +262,7 @@ The input file is a file named [![input_file_for_figure_1.tsv](https://img.shiel
 
 The output file, [![figure_1.svg](https://img.shields.io/badge/figure_1.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_1.svg)
 
-# 6. Contol group (Timing 4 min)
+# 6. The experimental group versus the control group (Timing 4 min)
+
+
  
