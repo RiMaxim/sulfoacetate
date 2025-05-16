@@ -287,12 +287,9 @@ The output files are:
 
 – Next, we subtract these **90** genomes from the list of **135,070**, which results in **134,980** genomes. From these, we extract **754** genomes that belong to the same families as the 90 genomes. We combined the **754** genomes with the **90** genomes, resulting in a total of **844** genomes.
 
-|Genomes count|Families|Classification                                                                        |
-|_____________|________|______________________________________________________________________________________|
+
+|Genomes count|Families count|Classification||(doi
+|-------------|--------------|--------------------------|----|--------------------------
 |940          |127     |Exclusively sponge-associated (453) and Mixed (487) Occasionally sponge-associated (0)|
 |656          |72      |Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (0)    |
 |844          |90      |Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (13)   |
-
-
-
-
