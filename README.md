@@ -273,7 +273,20 @@ and [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](h
 
 The output files are:
 
+[![940.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv) - experemental group, 940 genomes, 127 families
+
+[![656.tsv](https://img.shields.io/badge/656.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv) - control group, SFNS, 656 genomes, 72 families (from 127 families)
+
+[![844.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv) - control group, NFNS, 884 genomes, 90 families
+
 [![940.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv)
+
+[![940.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv)
+
+[![940.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv)
+
+[![940.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv)
+
 
 
 
