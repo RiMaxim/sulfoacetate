@@ -275,16 +275,23 @@ The output files are:
 
 [![940.tsv.gz](https://img.shields.io/badge/940.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv.gz) - experemental group, 940 genomes, 127 families
 
-[![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz) - control group, SFNS, 656 genomes, 72 families (from 127 families)
+[![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz) - control group (see description below), SFNS, 656 genomes, 72 families (from 127 families)
 
-[![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz) - control group, NFNS, 844 genomes, 90 families
+[![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz) - control group (see description below), NFNS, 844 genomes, 90 families
 
 [![926.tsv.gz](https://img.shields.io/badge/926.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/926.tsv.gz) [![135070.tsv.gz](https://img.shields.io/badge/135070.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/135070.tsv.gz) [![90.tsv.gz](https://img.shields.io/badge/90.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/90.tsv.gz) [![134980.tsv.gz](https://img.shields.io/badge/134980.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/134980.tsv.gz) [![754.tsv.gz](https://img.shields.io/badge/754.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/754.tsv.gz) - Intermediate files (see description below)
 
-– The experimental group will consist of genomes previously classified as **Exclusively sponge-associated** and **Mixed** (127 families, 940 genomes). The control will include two groups: SFNS – non-sponge-associated bacteria from families associated with sponges, and NFNS – non-sponge-associated bacteria from families not associated with sponges (closest neighbors in the phylogenetic tree, which may include genomes previously marked as occasionally sponge-associated).
+– From the initial list of 136,666 genomes, we subtract **940** genomes. From the resulting list of 135,726 genomes, we extract **656** genomes that belong to the same families as the 940 genomes. These **656** genomes also do not belong to sponges. This leaves us with **135,070** genomes.
 
+– In the experimental group, 14 genomes were added from other sources and are not part of the GTDB database (926 = 940 - 14). For the **926** genomes, we identified their closest neighbors (**90** genomes from 90 families) based on the phylogenetic tree constructed from the **135,070** genomes.
 
+– Next, we subtract these **90** genomes from the list of **135,070**, which results in **134,980** genomes. From these, we extract **754** genomes that belong to the same families as the 90 genomes. We combined the **754** genomes with the **90** genomes, resulting in a total of **844** genomes.
 
+|Genomes count|Families|Classification                                                                        |
+|_____________|________|______________________________________________________________________________________|
+|940          |127     |Exclusively sponge-associated (453) and Mixed (487) Occasionally sponge-associated (0)|
+|656          |72      |Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (0)    |
+|844          |90      |Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (13)   |
 
 
 
