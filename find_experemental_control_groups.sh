@@ -132,4 +132,6 @@ cat tmp16|awk -F'\t' '{if($7 == "1") print $2"\t"$3"\t"$4"\t"$5"\t"$6}' >754.tsv
 
 rm tmp* pairs_with_distances_indexed.txt
 
-pigz 134980.tsv 135070.tsv 656.tsv 754.tsv 90.tsv 926.tsv 940.tsv
+cat 90.tsv 754.tsv >844.tsv
+
+pigz 134980.tsv 135070.tsv 656.tsv 754.tsv 90.tsv 926.tsv 940.tsv 844.tsv
