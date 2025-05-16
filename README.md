@@ -266,7 +266,7 @@ The output file, [![figure_1.svg](https://img.shields.io/badge/figure_1.svg-brig
 
 – The experimental group will consist of genomes previously classified as **Exclusively sponge-associated** and **Mixed** (127 families, 940 genomes). The control will include two groups: SFNS – non-sponge-associated bacteria from families associated with sponges, and NFNS – non-sponge-associated bacteria from families not associated with sponges (closest neighbors in the phylogenetic tree, which may include genomes previously marked as occasionally sponge-associated).
 
->Run script find_experemental_control.groups.sh
+>Run script ./find_experemental_control.groups.sh
 
 The input files are [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv)
 and [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz) and [![bac120_r226.tree](https://img.shields.io/badge/bac120_r226.tree-brightgreen)](https://data.ace.uq.edu.au/public/gtdb/data/releases/release226/226.0/bac120_r226.tree) from GTDB database
