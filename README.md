@@ -273,19 +273,21 @@ and [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](h
 
 The output files are:
 
-[![940.tsv](https://img.shields.io/badge/940.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv) - experemental group, 940 genomes, 127 families
+[![940.tsv.gz](https://img.shields.io/badge/940.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv.gz) - experemental group, 940 genomes, 127 families
 
-[![656.tsv](https://img.shields.io/badge/656.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv) - control group, SFNS, 656 genomes, 72 families (from 127 families)
+[![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz) - control group, SFNS, 656 genomes, 72 families (from 127 families)
 
-[![844.tsv](https://img.shields.io/badge/844.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv) - control group, NFNS, 844 genomes, 90 families
+[![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz) - control group, NFNS, 844 genomes, 90 families
 
-[![926.tsv](https://img.shields.io/badge/926.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/926.tsv)
+[![926.tsv.gz](https://img.shields.io/badge/926.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/926.tsv.gz)
 
-[![90.tsv](https://img.shields.io/badge/90.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/90.tsv)
+[![90.tsv.gz](https://img.shields.io/badge/90.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/90.tsv.gz)
 
-[![754.tsv](https://img.shields.io/badge/754.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/754.tsv)
+[![754.tsv.gz](https://img.shields.io/badge/754.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/754.tsv.gz)
 
-[![134980.tsv](https://img.shields.io/badge/134980.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/134980.tsv)
+[![135070.tsv.gz](https://img.shields.io/badge/135070.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/135070.tsv.gz)
+
+[![134980.tsv.gz](https://img.shields.io/badge/134980.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/134980.tsv.gz)
 
 
 
