@@ -279,15 +279,12 @@ The output files are:
 
 [![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz) - control group, NFNS, 844 genomes, 90 families
 
-[![926.tsv.gz](https://img.shields.io/badge/926.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/926.tsv.gz)
+[![926.tsv.gz](https://img.shields.io/badge/926.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/926.tsv.gz) [![135070.tsv.gz](https://img.shields.io/badge/135070.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/135070.tsv.gz) [![90.tsv.gz](https://img.shields.io/badge/90.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/90.tsv.gz) [![134980.tsv.gz](https://img.shields.io/badge/134980.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/134980.tsv.gz) [![754.tsv.gz](https://img.shields.io/badge/754.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/754.tsv.gz) - Intermediate files (see description below)
 
-[![90.tsv.gz](https://img.shields.io/badge/90.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/90.tsv.gz)
+– The experimental group will consist of genomes previously classified as **Exclusively sponge-associated** and **Mixed** (127 families, 940 genomes). The control will include two groups: SFNS – non-sponge-associated bacteria from families associated with sponges, and NFNS – non-sponge-associated bacteria from families not associated with sponges (closest neighbors in the phylogenetic tree, which may include genomes previously marked as occasionally sponge-associated).
 
-[![754.tsv.gz](https://img.shields.io/badge/754.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/754.tsv.gz)
 
-[![135070.tsv.gz](https://img.shields.io/badge/135070.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/135070.tsv.gz)
 
-[![134980.tsv.gz](https://img.shields.io/badge/134980.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/134980.tsv.gz)
 
 
 
