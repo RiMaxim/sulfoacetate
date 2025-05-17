@@ -283,7 +283,7 @@ The input file is a file named [![input_file_for_figure_1.tsv](https://img.shiel
 The output file, [![figure_1.svg](https://img.shields.io/badge/figure_1.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_1.svg)
 
 <p align="center">
-  <img src="figure_1.svg" alt="Описание" width="400">
+  <img src="figure_1.svg" alt="Описание" width="700">
 </p>
 
 # 6. The experimental group versus the control group (Timing 8 mins)
