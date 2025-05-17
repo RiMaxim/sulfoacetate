@@ -250,11 +250,11 @@ The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/in
 
 6th column, Family Classification – Categorization of each family into one of three types based on **Sponge Score**:
 
-**Exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families, 453 genomes.
+**exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families, 453 genomes (HMA(342); LMA (75); ND (36)).
 
-**Mixed** (0.25 < Sponge Score < 0.75) – 53 families, 487 genomes.
+**mixed** (0.25 < Sponge Score < 0.75) – 53 families, 487 genomes (HMA(399); LMA (34); ND (54)).
 
-**Occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families, 706 genomes.
+**occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families, 706 genomes (HMA(334); LMA (210); ND (162)).
 
 >Run script figure_1.R 
 
@@ -264,7 +264,7 @@ The output file, [![figure_1.svg](https://img.shields.io/badge/figure_1.svg-brig
 
 # 6. The experimental group versus the control group (Timing 8 mins)
 
-– The experimental group will consist of genomes previously classified as **Exclusively sponge-associated** and **Mixed** (127 families, 940 genomes). The control will include two groups: SFNS – non-sponge-associated bacteria from families associated with sponges, and NFNS – non-sponge-associated bacteria from families not associated with sponges (closest neighbors in the phylogenetic tree, which may include genomes previously marked as occasionally sponge-associated).
+– The experimental group will consist of genomes previously classified as **exclusively sponge-associated** and **mixed** (127 families, 940 genomes). The control will include two groups: SFNS – non-sponge-associated bacteria from families associated with sponges, and NFNS – non-sponge-associated bacteria from families not associated with sponges (closest neighbors in the phylogenetic tree, which may include genomes previously marked as occasionally sponge-associated).
 
 >Run script ./find_experemental_control.groups.sh
 
@@ -293,6 +293,6 @@ The output files are:
 
 |Genomes count|Families count|Classification|
 |-------------|--------------|--------------------------|
-|940          |127     |**Sponge:** Exclusively sponge-associated (453: HMA(342); LMA (75); ND (36)) and Mixed (487: : HMA(399); LMA (34); ND (54))) Occasionally sponge-associated (0)<br>**Not sponge:** 0|
-|656          |72      |**Sponge:** Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (0)<br>**Not sponge:** 656    |
-|844          |90      |**Sponge:** Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
+|940          |127     |**Sponge:** exclusively sponge-associated (453: HMA(342); LMA (75); ND (36)) and mixed (487: HMA(399); LMA (34); ND (54))) occasionally sponge-associated (0)<br>**Not sponge:** 0|
+|656          |72      |**Sponge:** exclusively sponge-associated (0) and mixed (0) occasionally sponge-associated (0)<br>**Not sponge:** 656    |
+|844          |90      |**Sponge:** exclusively sponge-associated (0) and mixed (0) occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
