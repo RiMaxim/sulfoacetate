@@ -324,7 +324,7 @@ The output files are:
 
 # 7. Annotation genomes (Timing variable)
 
-Genomes for all groups were annotated by prokka and eggnog.
+Genomes for all groups were annotated by prokka and eggnog. 14 genomes from 20 genomes ([![20_genomes_fasta.tar.gz](https://img.shields.io/badge/20_genomes_fasta.tar.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/20_genomes_fasta.tar.gz)) from other sources and 2426 (=926+844+656) from GTDB.
 
 >Run script ./annotation.sh
 
