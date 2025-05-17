@@ -245,11 +245,36 @@ The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/in
 
 6th column, Family Classification – Categorization of each family into one of three types based on **Sponge Score**:
 
-**exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families, 453 genomes (HMA(342); LMA (75); ND (36)).
+**exclusively sponge-associated** (Sponge Score ≥ 0.75) – 74 families, 453 genomes (HMA(342); LMA (75); ND (36)). 
 
 **mixed** (0.25 < Sponge Score < 0.75) – 53 families, 487 genomes (HMA(399); LMA (34); ND (54)).
 
 **occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families, 706 genomes (HMA(334); LMA (210); ND (162)).
+
+– Information about the 20 genomes added from other sources:
+
+|ID   |GTBD Release 10-RS226 (16th April 2025)                                                                          |Sponge Name                |Type|Sponge score|
+|-----|-----------------------------------------------------------------------------------------------------------------|---------------------------|----|--------------------------|
+|OTU1	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__ |Isodictya palmata          |LMA |exclusively sponge-associated|
+|OTU3	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Arenicellales; f__;g__;s__	                            |Halichondria sitiens       |LMA |exclusively sponge-associated|
+|OTU7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Pseudomonadales; f__Azotimanducaceae;g__UBA9659;s__	    |Halichondria sitiens       |LMA |occasionally sponge-associated |
+|OTU9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Porifericomitales; f__Porifericomitaceae;g__;s__	      |Halichondria sitiens       |LMA |exclusively sponge-associated |
+|OTU14|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Poriferisulfidales; f__;g__;s__	                        |Halichondria sitiens       |LMA |exclusively sponge-associated |
+|OTU4	|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodobacterales; f__Rhodobacteraceae;g__Amylibacter;s__ |Halichondria panicea       |LMA |occasionally sponge-associated|
+|OTU23|d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Puniceispirillales; f__UBA1172;g__JAGWAQ01;s__	        |Halichondria panicea       |LMA |occasionally sponge-associated|
+|ID1  |d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__;g__;s__	                          |Tethya stolonifera         |LMA |exclusively sponge-associated|
+|ID2	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__JAHZKE01;s__	  |Scopalina sp.              |LMA |exclusively sponge-associated|
+|ID3	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Crambe crambe              |LMA |exclusively sponge-associated|
+|ID4	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__;g__;s__	                          |Coelocarteria singaporensis|HMA |exclusively sponge-associated|
+|ID5	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Tsitsikamma favus          |LMA |exclusively sponge-associated|
+|ID6	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Iophon methanophila        |ND  |exclusively sponge-associated|
+|ID7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__;g__;s__	                          |Cinachyrella sp.           |ND  |exclusively sponge-associated|
+|ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Poridera sp.           |ND  |exclusively sponge-associated|
+|ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Poridera sp.           |ND  |exclusively sponge-associated|
+|ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Poridera sp.           |ND  |exclusively sponge-associated|
+|M55B157_sp018609125|	d__Bacteria;p__Actinomycetota; c__Actinomycetes;o__S36-B12; f__S36-B12;g__M55B157;s__M55B157 sp018609125|Halisarca dujardinii |ND  |occasionally sponge-associated|
+|Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |occasionally sponge-associated|
+|Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |occasionally sponge-associated|
 
 >Run script ./figure_1.R 
 
