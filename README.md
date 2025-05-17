@@ -269,9 +269,9 @@ The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/in
 |ID5	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Tsitsikamma favus          |LMA |exclusively sponge-associated|
 |ID6	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Iophon methanophila        |ND  |exclusively sponge-associated|
 |ID7	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__;g__;s__	                          |Cinachyrella sp.           |ND  |exclusively sponge-associated|
-|ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Poridera sp.           |ND  |exclusively sponge-associated|
-|ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Poridera sp.           |ND  |exclusively sponge-associated|
-|ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Poridera sp.           |ND  |exclusively sponge-associated|
+|ID8	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Tethybacteraceae;g__Tethybacter;s__	|Porifera sp.           |ND  |exclusively sponge-associated|
+|ID9	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__;s__	          |Porifera sp.           |ND  |exclusively sponge-associated|
+|ID10	|d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Tethybacterales; f__Persebacteraceae;g__Persebacter;s__	|Porifera sp.           |ND  |exclusively sponge-associated|
 |M55B157_sp018609125|	d__Bacteria;p__Actinomycetota; c__Actinomycetes;o__S36-B12; f__S36-B12;g__M55B157;s__M55B157 sp018609125|Halisarca dujardinii |ND  |occasionally sponge-associated|
 |Eutrophobiaceae    |	d__Bacteria;p__Pseudomonadota; c__Gammaproteobacteria;o__Eutrophobiales; f__Eutrophobiaceae;g__;s__	    |Halisarca dujardinii	|ND  |occasionally sponge-associated|
 |Casp-alpha2        |	d__Bacteria;p__Pseudomonadota; c__Alphaproteobacteria;o__Rhodospirillales; f__Casp-alpha2;g__;s__	      |Halisarca dujardinii	|ND  |occasionally sponge-associated|
