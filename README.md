@@ -309,10 +309,10 @@ The output files are:
 
 – All files have 5 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification.
 
-– Statistics for the files 940.tsv.gz, 656.tsv.gz and 844.tsv.gz:
+– Statistics for the files:
 
-|Genomes count|Families count|Classification|
-|-------------|--------------|--------------------------|
-|940          |127     |**Sponge:** <br>exclusively sponge-associated (453: HMA(342); LMA (75); ND (36))<br>mixed (487: HMA(399); LMA (34); ND (54)))<br>occasionally sponge-associated (0)<br>**Not sponge:** 0|
-|656          |72      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (0)<br>**Not sponge:** 656    |
-|844          |90      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
+|Type|File|Genomes count|Families count|Classification|
+|---------|----|--------------|--------------------------|---|
+|940.tsv.gz|experimental group|940          |127     |**Sponge:** <br>exclusively sponge-associated (453: HMA(342); LMA (75); ND (36))<br>mixed (487: HMA(399); LMA (34); ND (54)))<br>occasionally sponge-associated (0)<br>**Not sponge:** 0|
+|656.tsv.gz|SFNS|656          |72      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (0)<br>**Not sponge:** 656    |
+|844.tsv.gz|NFN|844          |90      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
