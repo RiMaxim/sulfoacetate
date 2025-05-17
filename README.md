@@ -324,3 +324,8 @@ The output files are:
 
 # 7. Annotation genomes (Timing variable)
 
+Genomes for all groups were annotated by 
+
+>prokka --cpus $2 --gcode 11 --metagenome --force --outdir ./prokka/$1 --prefix $1 ./$1.fasta
+
+
