@@ -219,14 +219,9 @@ The 6 newly added sponge species were Isodictya palmata, Halichondria sitiens, T
 |Tedaniidae sp.	              |2	          |ND  |                                                     |
 |Terpios hoshinota	          |1          	|ND  |                                                     |
 
-The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz), with the following columns:
-	1.	GTDB accession
-	2.	GTDB taxonomy
-	3.	Sponge species (derived from column 4)
-	4.	Data from biosample_set.xml
-	5.	Type (HMA/LMA)
+– The input file, table.tsv, is generated in the first step (1). The resulting output is filtered in the second step (2), expanded with newly added genomes in the third step (3), and annotated with type information (HMA/LMA) in this step. The final output is saved as [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz), with the following columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species (derived from column 4); 4th column - Data from biosample_set.xml; 5th column - Type (HMA/LMA).
 
-A total of 1,646 genomes were associated with sponges, while 135,020 genomes had no sponge-related information in the XML metadata from NCBI.
+– A total of 1,646 genomes were associated with sponges, while 135,020 genomes had no sponge-related information in the XML metadata from NCBI.
 
 # 5. Figure 1 (Timing < 1 min)
 
@@ -256,7 +251,7 @@ The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/in
 
 **occasionally sponge-associated** (Sponge Score ≤ 0.25) – 159 families, 706 genomes (HMA(334); LMA (210); ND (162)).
 
->Run script figure_1.R 
+>Run script ./figure_1.R 
 
 The input file is a file named [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv)
 
