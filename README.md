@@ -324,7 +324,7 @@ The output files are:
 
 # 7. Annotation genomes (Timing variable)
 
-Genomes for all groups were annotated by prokka
+Genomes for all groups were annotated by prokka and eggnog.
 
 >Run script ./annotation.sh
 
