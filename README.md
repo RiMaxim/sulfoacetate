@@ -282,6 +282,10 @@ The input file is a file named [![input_file_for_figure_1.tsv](https://img.shiel
 
 The output file, [![figure_1.svg](https://img.shields.io/badge/figure_1.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_1.svg)
 
+<p align="center">
+  <img src="figure_1.svg" alt="Описание" width="400">
+</p>
+
 # 6. The experimental group versus the control group (Timing 8 mins)
 
 – The experimental group will consist of genomes previously classified as **exclusively sponge-associated** and **mixed** (127 families, 940 genomes). The control will include two groups: SFNS – non-sponge-associated bacteria from families associated with sponges, and NFNS – non-sponge-associated bacteria from families not associated with sponges (closest neighbors in the phylogenetic tree, which may include genomes previously marked as occasionally sponge-associated).
@@ -307,7 +311,6 @@ The output files are:
 
 – Next, we subtract these **90** genomes from the list of **135,070**, which results in **134,980** genomes. From these, we extract **754** genomes that belong to the same families as the 90 genomes. We combined the **754** genomes with the **90** genomes, resulting in a total of **844** genomes (NFNS).
 
-![Not found](figure_1.svg)
 
 – All files have 5 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification.
 
