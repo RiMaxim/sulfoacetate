@@ -301,11 +301,11 @@ The output files are:
 
 [![926.tsv.gz](https://img.shields.io/badge/926.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/926.tsv.gz) [![135070.tsv.gz](https://img.shields.io/badge/135070.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/135070.tsv.gz) [![90.tsv.gz](https://img.shields.io/badge/90.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/90.tsv.gz) [![134980.tsv.gz](https://img.shields.io/badge/134980.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/134980.tsv.gz) [![754.tsv.gz](https://img.shields.io/badge/754.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/754.tsv.gz) - Intermediate files (see description below)
 
-– From the initial list of 136,666 genomes, we subtract **940** genomes. From the resulting list of 135,726 genomes, we extract **656** genomes that belong to the same families as the 940 genomes. These **656** genomes also do not belong to sponges. This leaves us with **135,070** genomes.
+– From the initial list of 136,666 genomes, we subtract **940** genomes (experemental group). From the resulting list of 135,726 genomes, we extract **656** genomes (SFNS) that belong to the same families as the 940 genomes (experemental group). These **656** genomes (SFNS) also do not belong to sponges. This leaves us with **135,070** genomes.
 
-– In the experimental group, 14 genomes were added from other sources and are not part of the GTDB database (926 = 940 - 14). For the **926** genomes, we identified their closest neighbors (**90** genomes from 90 families) based on the phylogenetic tree constructed from the **135,070** genomes.
+– In the experimental group, 14 genomes (ID1,...,ID10,OTU1,OTU3,OTU9 and OTU14) were added from other sources and are not part of the GTDB database (926 = 940 - 14). For the **926** genomes, we identified their closest neighbors (**90** genomes from 90 families) based on the phylogenetic tree constructed from the **135,070** genomes.
 
-– Next, we subtract these **90** genomes from the list of **135,070**, which results in **134,980** genomes. From these, we extract **754** genomes that belong to the same families as the 90 genomes. We combined the **754** genomes with the **90** genomes, resulting in a total of **844** genomes.
+– Next, we subtract these **90** genomes from the list of **135,070**, which results in **134,980** genomes. From these, we extract **754** genomes that belong to the same families as the 90 genomes. We combined the **754** genomes with the **90** genomes, resulting in a total of **844** genomes (NFNS).
 
 – All files have 5 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification.
 
