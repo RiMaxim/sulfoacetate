@@ -291,5 +291,5 @@ The output files are:
 |Genomes count|Families count|Classification|
 |-------------|--------------|--------------------------|
 |940          |127     |**Sponge:** Exclusively sponge-associated (453: HMA(342); LMA (75); ND (36)) and Mixed (487: : HMA(399); LMA (34); ND (54))) Occasionally sponge-associated (0)<br>**Not sponge:** 0|
-|656          |72      |**Sponge:** Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (0)<br>**Not sponge:** 655    |
+|656          |72      |**Sponge:** Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (0)<br>**Not sponge:** 656    |
 |844          |90      |**Sponge:** Exclusively sponge-associated (0) and Mixed (0) Occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
