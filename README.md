@@ -287,6 +287,9 @@ The output files are:
 
 – Next, we subtract these **90** genomes from the list of **135,070**, which results in **134,980** genomes. From these, we extract **754** genomes that belong to the same families as the 90 genomes. We combined the **754** genomes with the **90** genomes, resulting in a total of **844** genomes.
 
+– All files have 5 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification.
+
+– Statistics for the files 940.tsv.gz, 656.tsv.gz and 844.tsv.gz:
 
 |Genomes count|Families count|Classification|
 |-------------|--------------|--------------------------|
