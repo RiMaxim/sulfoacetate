@@ -334,7 +334,7 @@ Genomes for all groups were annotated by prokka and eggnog. 14 genomes from 20 g
 >--outdir ./prokka/$1 \
 >--prefix $1 $1.fasta
 
->awk '{if ($0 ~ /^>/) gsub(/ /, "'_'"); print}' ./prokka/$1/$1.faa > ./prokka/$1/$1_.faa
+>awk '{if ($0 ~ /^>/) gsub(/ /, "_"); print}' ./prokka/$1/$1.faa > ./prokka/$1/$1_.faa
 
 >mkdir ./eggnog/$1
 >python3 /eggnog-mapper-2.1.12/emapper.py \
