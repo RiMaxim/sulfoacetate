@@ -326,7 +326,22 @@ The output files are:
 
 Genomes for all groups were annotated by prokka and eggnog. 14 genomes from 20 genomes ([![20_genomes_fasta.tar.gz](https://img.shields.io/badge/20_genomes_fasta.tar.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/20_genomes_fasta.tar.gz)) from other sources and 2426 (=926+844+656) from GTDB.
 
->Run script ./annotation.sh
+>prokka \
+>--cpus $2 \
+>--gcode 11 \
+>--metagenome \
+>--force \
+>--outdir ./prokka/$1 \
+>--prefix $1 $1.fasta
+
+>awk '{if ($0 ~ /^>/) gsub(/ /, "_"); print}' ./prokka/$1/$1.faa > ./prokka/$1/$1_.faa
+
+>mkdir ./eggnog/$1
+>python3 /eggnog-mapper-2.1.12/emapper.py \
+>--dmnd_db /eggnog-mapper-2.1.12/data/bacteria.dmnd \
+>-i ./prokka/$1/$1_.faa \
+>-o ./eggnog/$1/$1.eggnog_bact_db \
+>--cpu $2
 
 
 
