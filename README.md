@@ -323,7 +323,7 @@ The output files are:
 |[![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz)|NFNS|844          |90      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
 
 <p align="center">
-  <img src="Figure3.svg" alt="Описание" width="700">
+  <img src="figure_2.svg" alt="Описание" width="700">
 </p>
 
 # 7. Annotation genomes (Timing variable)
