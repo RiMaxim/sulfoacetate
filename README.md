@@ -322,6 +322,10 @@ The output files are:
 |[![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz)|SFNS|656          |72      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (0)<br>**Not sponge:** 656    |
 |[![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz)|NFNS|844          |90      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
 
+<p align="center">
+  <img src="Figure3.svg" alt="Описание" width="700">
+</p>
+
 # 7. Annotation genomes (Timing variable)
 
 Genomes for all groups were annotated by prokka and eggnog. 14 genomes from 20 genomes ([![20_genomes_fasta.tar.gz](https://img.shields.io/badge/20_genomes_fasta.tar.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/20_genomes_fasta.tar.gz)) from other sources and 2426 (=926+844+656) from GTDB.
