@@ -379,9 +379,13 @@ The numbers from the previous table will be used for generating the figure and p
 >
 > **** — extremely significant (P ≤ 0.0001)
 
-The output file, [![figure_2.svg](https://img.shields.io/badge/figure_2.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_2.svg)
+The output files, [![figure_2a.svg](https://img.shields.io/badge/figure_2a.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_2a.svg) and [![figure_2b.svg](https://img.shields.io/badge/figure_2b.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_2b.svg)
 
 <p align="center">
-  <img src="figure_2.svg" alt="Описание" width="700">
+  <img src="figure_2a.svg" alt="Описание" width="700">
+</p>
+
+<p align="center">
+  <img src="figure_2b.svg" alt="Описание" width="700">
 </p>
 
