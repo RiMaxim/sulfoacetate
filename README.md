@@ -359,7 +359,7 @@ The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_s
 
 |Type|File|Genomes count in which clusters|
 |---------|----|--------------|
-|[![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz)experimental group| HMA (1 from 741); LMA (1 from 109); ND (1 from 90)|
+|[![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz)|experimental group| HMA (1 from 741); LMA (1 from 109); ND (1 from 90)|
 |[![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz)|SFNS| 20 from 656 |
 |[![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz)|NFNS|30 from 844  |
 
