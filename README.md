@@ -367,17 +367,17 @@ The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_s
 
 The numbers from the previous table will be used for generating the figure and performing statistical analysis (Fisher’s exact test). 
 
->**Significance codes used in the figures:**
+> **Significance codes used in the figures:**
 >
->ns — not significant (P > 0.05)
+> ns — not significant (P > 0.05)
 >
->* — significant (P ≤ 0.05)
+> * — significant (P ≤ 0.05)
 >
->** — highly significant (P ≤ 0.01)
+> ** — highly significant (P ≤ 0.01)
 >  
->*** — very highly significant (P ≤ 0.001)
+> *** — very highly significant (P ≤ 0.001)
 >
->**** — extremely significant (P ≤ 0.0001)
+> **** — extremely significant (P ≤ 0.0001)
 
 The output file, [![figure_2.svg](https://img.shields.io/badge/figure_2.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_2.svg)
 
