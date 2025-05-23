@@ -363,3 +363,13 @@ The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_s
 |[![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz)|SFNS| 20 from 656 |
 |[![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz)|NFNS|30 from 844  |
 
+>Run script ./figure_2.R 
+
+The numbers from the previous table will be used for generating the figure and performing statistical analysis (Fisher’s exact test).
+
+The output file, [![figure_2.svg](https://img.shields.io/badge/figure_2.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_2.svg)
+
+<p align="center">
+  <img src="figure_2.svg" alt="Описание" width="700">
+</p>
+
