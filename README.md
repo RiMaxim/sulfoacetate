@@ -316,7 +316,7 @@ The output files are:
 
 – Statistics for the files:
 
-|Type|File|Genomes count|Families count|Classification|
+|File|Type|Genomes count|Families count|Classification|
 |---------|----|--------------|--------------------------|---|
 |[![940.tsv.gz](https://img.shields.io/badge/940.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv.gz)|experimental group|940          |127     |**Sponge:** <br>exclusively sponge-associated (453: HMA(342); LMA (75); ND (36))<br>mixed (487: HMA(399); LMA (34); ND (54)))<br>occasionally sponge-associated (0)<br>**Not sponge:** 0|
 |[![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz)|SFNS|656          |72      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (0)<br>**Not sponge:** 656    |
@@ -355,4 +355,11 @@ Fraction of bacterial genomes encoding sulfoacetate metabolic gene clusters amon
 
 The input files are a files named [![940.tsv.gz](https://img.shields.io/badge/940.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv.gz) [![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz) and [![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz)
 
-The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv), contains 286 unique entries. The columns are structured as follows:
+The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz) [![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz) and [![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz) All files have 6 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification; 6th column - cluster for sulfoacetate. Each output file contains only the genomes in which clusters of suaS and suaT, or suaS, sucC, and sucD are detected.
+
+|Type|File|Genomes count in which clusters|
+|---------|----|--------------|
+|[![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz)experimental group| HMA (1 from 741); LMA (1 from 109); ND (1 from 90)|
+|[![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz)|SFNS| 20 from 656 |
+|[![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz)|NFNS|30 from 844  |
+
