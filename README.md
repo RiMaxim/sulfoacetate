@@ -353,6 +353,6 @@ Fraction of bacterial genomes encoding sulfoacetate metabolic gene clusters amon
 
 >Run script ./create_figure_2.sh 
 
-The input file is a file named [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz)
+The input files are a files named [![940.tsv.gz](https://img.shields.io/badge/940.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv.gz) [![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz) and [![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz)
 
 The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv), contains 286 unique entries. The columns are structured as follows:
