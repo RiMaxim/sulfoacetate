@@ -371,7 +371,7 @@ The numbers from the previous table will be used for generating the figure and p
 >
 > ns — not significant (P > 0.05)
 >
-> * — significant (P ≤ 0.05)
+> \* — significant (P ≤ 0.05)
 >
 > ** — highly significant (P ≤ 0.01)
 >  
