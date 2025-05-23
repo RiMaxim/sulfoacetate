@@ -347,7 +347,7 @@ Genomes for all groups were annotated by prokka and eggnog. 14 genomes from 20 g
 >-o ./eggnog/$1/$1.eggnog_bact_db \
 >--cpu $2
 
-# 8. Figure 2 (Timing < 1 min)
+# 8. Figure 2 (Timing 25 mins)
 
 Fraction of bacterial genomes encoding sulfoacetate metabolic gene clusters among representative bacterial genomes obtained from sponges (LMA, HMA, or sponges with not determined microbiome status - ND), or control groups of non-sponge-associated bacteria. SFNS - non-sponge-associated bacteria from families associated with sponges (sponge score>=0.25), NFNS - non-sponge-associated bacteria from families not associated with sponges (sponge score < 0.25).
 
@@ -355,13 +355,13 @@ Fraction of bacterial genomes encoding sulfoacetate metabolic gene clusters amon
 
 The input files are a files named [![940.tsv.gz](https://img.shields.io/badge/940.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940.tsv.gz) [![656.tsv.gz](https://img.shields.io/badge/656.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656.tsv.gz) and [![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz)
 
-The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz) [![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz) and [![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz) All files have 6 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification; 6th column - cluster for sulfoacetate. Each output file contains only the genomes in which clusters of suaS and suaT, or suaS, sucC, and sucD are detected.
+The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz) [![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz) and [![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz) All files have 6 columns: 1st column - GTDB accession; 2nd column - GTDB taxonomy; 3rd column - Sponge species; 4th column - Type (HMA/LMA); 5th column - Family Classification; 6th column - cluster for sulfoacetate (for example ""|sucD_1|sucC_1|sauS_1|ydhC|""|mhpD_1). We searched for sauS and three genes upstream and downstream of it. Among the six genes, either sauT or sucC together with sucD were present. A vertical bar was used as a delimiter between genes. If a gene name was missing, it was enclosed in double quotation marks. Each output file contains only the genomes in which clusters of suaS and suaT, or suaS, sucC, and sucD are detected.
 
 |Type|File|Genomes count in which clusters|
 |---------|----|--------------|
-|[![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz)|experimental group| HMA (1 from 741); LMA (1 from 109); ND (1 from 90)|
-|[![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz)|SFNS| 20 from 656 |
-|[![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz)|NFNS|30 from 844  |
+|[![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/940_sulfoacetate.tsv.gz)|experimental group| HMA (49 from 741); LMA (21 from 109); ND (4 from 90)|
+|[![656_sulfoacetate.tsv.gz](https://img.shields.io/badge/656_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/656_sulfoacetate.tsv.gz)|SFNS|19 from 656 |
+|[![844_sulfoacetate.tsv.gz](https://img.shields.io/badge/844_sulfoacetate.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844_sulfoacetate.tsv.gz)|NFNS|7 from 844  |
 
 >Run script ./figure_2.R 
 
