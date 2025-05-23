@@ -365,7 +365,7 @@ The output files, [![940_sulfoacetate.tsv.gz](https://img.shields.io/badge/940_s
 
 >Run script ./figure_2.R 
 
-The numbers from the previous table will be used for generating the figure and performing statistical analysis (Fisher’s exact test).
+The numbers from the previous table will be used for generating the figure and performing statistical analysis (Fisher’s exact test). ns (Pvalue > 0.05); * (Pvalue $$\leq$$ 0.05); ** (Pvalue $$\leq$$ 0.01); *** (Pvalue $$\leq$$ 0.001); **** (Pvalue $$\leq$$ 0.0001)
 
 The output file, [![figure_2.svg](https://img.shields.io/badge/figure_2.svg-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/figure_2.svg)
 
