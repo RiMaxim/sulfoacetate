@@ -323,7 +323,7 @@ The output files are:
 |[![844.tsv.gz](https://img.shields.io/badge/844.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/844.tsv.gz)|NFNS|844          |90      |**Sponge:** <br>exclusively sponge-associated (0)<br>mixed (0)<br>occasionally sponge-associated (13: HMA(8); LMA (4); ND (1))<br>**Not sponge:** 831|
 
 <p align="center">
-  <img src="figure_2.svg" alt="Описание" width="700">
+  <img src="scheme.svg" alt="Описание" width="700">
 </p>
 
 # 7. Annotation genomes (Timing variable)
@@ -347,5 +347,12 @@ Genomes for all groups were annotated by prokka and eggnog. 14 genomes from 20 g
 >-o ./eggnog/$1/$1.eggnog_bact_db \
 >--cpu $2
 
+# 8. Figure 2 (Timing < 1 min)
 
+Fraction of bacterial genomes encoding sulfoacetate metabolic gene clusters among representative bacterial genomes obtained from sponges (LMA, HMA, or sponges with not determined microbiome status - ND), or control groups of non-sponge-associated bacteria. SFNS - non-sponge-associated bacteria from families associated with sponges (sponge score>=0.25), NFNS - non-sponge-associated bacteria from families not associated with sponges (sponge score < 0.25).
 
+>Run script ./create_figure_2.sh 
+
+The input file is a file named [![table2.tsv.gz](https://img.shields.io/badge/table2.tsv.gz-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/table2.tsv.gz)
+
+The output file, [![input_file_for_figure_1.tsv](https://img.shields.io/badge/input_file_for_figure_1.tsv-brightgreen)](https://github.com/RiMaxim/sulfoacetate/blob/main/input_file_for_figure_1.tsv), contains 286 unique entries. The columns are structured as follows:
